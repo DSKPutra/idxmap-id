@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#164e63"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g stroke="#22d3ee" stroke-opacity="0.35" stroke-width="1">
+    <line x1="120" y1="470" x2="360" y2="330"/>
+    <line x1="360" y1="330" x2="560" y2="400"/>
+    <line x1="560" y1="400" x2="820" y2="220"/>
+    <line x1="820" y1="220" x2="1040" y2="300"/>
+  </g>
+  <g fill="#22d3ee">
+    <circle cx="120" cy="470" r="7"/>
+    <circle cx="360" cy="330" r="7"/>
+    <circle cx="560" cy="400" r="7"/>
+    <circle cx="820" cy="220" r="9"/>
+    <circle cx="1040" cy="300" r="7"/>
+  </g>
+  <text x="120" y="150" font-family="Arial, sans-serif" font-size="64" font-weight="800" fill="#f8fafc">IDXMap.ID</text>
+  <text x="120" y="205" font-family="Arial, sans-serif" font-size="30" fill="#a5f3fc">Ketahui Siapa Pemilik Setiap Saham di Indonesia</text>
+</svg>

@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "grup-nusantara-makmur",
+    "name": "Grup Nusantara Makmur (Data Fiktif)",
+    "founder": "H. Slamet Nusantara",
+    "description": "Kelompok usaha fiktif Grup Nusantara Makmur (Data Fiktif) untuk keperluan demo IDXMap.ID. Bukan entitas nyata."
+  },
+  {
+    "slug": "grup-cahaya-timur",
+    "name": "Grup Cahaya Timur (Data Fiktif)",
+    "founder": "Lie Cahaya Timur",
+    "description": "Kelompok usaha fiktif Grup Cahaya Timur (Data Fiktif) untuk keperluan demo IDXMap.ID. Bukan entitas nyata."
+  },
+  {
+    "slug": "grup-samudra-abadi",
+    "name": "Grup Samudra Abadi (Data Fiktif)",
+    "founder": "Raden Samudra Abadi",
+    "description": "Kelompok usaha fiktif Grup Samudra Abadi (Data Fiktif) untuk keperluan demo IDXMap.ID. Bukan entitas nyata."
+  }
+]

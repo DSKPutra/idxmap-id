@@ -16,9 +16,26 @@ dist-ssr
 .vscode/*
 !.vscode/extensions.json
 .idea
+.claude/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Supabase local
+supabase/.branches
+supabase/.temp
+
+# Raw KSEI source files (large, not for version control)
+data/raw/*
+!data/raw/.gitkeep
+
+# Coverage
+coverage

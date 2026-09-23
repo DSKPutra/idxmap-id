@@ -1,0 +1,1122 @@
+[
+  {
+    "ticker_code": "QRST",
+    "date": "2026-08-20",
+    "close": 636,
+    "change_pct": 0.33,
+    "volume": 32958975,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "QRST",
+    "date": "2026-08-21",
+    "close": 640,
+    "change_pct": 0.6,
+    "volume": 11320333,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "QRST",
+    "date": "2026-08-22",
+    "close": 658,
+    "change_pct": 2.85,
+    "volume": 13796665,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "QRST",
+    "date": "2026-08-23",
+    "close": 673,
+    "change_pct": 2.22,
+    "volume": 47999890,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "QRST",
+    "date": "2026-08-24",
+    "close": 692,
+    "change_pct": 2.78,
+    "volume": 39510799,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "QRST",
+    "date": "2026-08-25",
+    "close": 676,
+    "change_pct": -2.36,
+    "volume": 49721356,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "QRST",
+    "date": "2026-08-26",
+    "close": 688,
+    "change_pct": 1.81,
+    "volume": 36236832,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "QRST",
+    "date": "2026-08-27",
+    "close": 673,
+    "change_pct": -2.12,
+    "volume": 42579344,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "QRST",
+    "date": "2026-08-28",
+    "close": 664,
+    "change_pct": -1.28,
+    "volume": 44824904,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "QRST",
+    "date": "2026-08-29",
+    "close": 673,
+    "change_pct": 1.29,
+    "volume": 21885915,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "ZYXW",
+    "date": "2026-08-20",
+    "close": 10935,
+    "change_pct": -2.62,
+    "volume": 49209318,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "ZYXW",
+    "date": "2026-08-21",
+    "close": 10840,
+    "change_pct": -0.87,
+    "volume": 39625183,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "ZYXW",
+    "date": "2026-08-22",
+    "close": 10518,
+    "change_pct": -2.97,
+    "volume": 15213543,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "ZYXW",
+    "date": "2026-08-23",
+    "close": 10341,
+    "change_pct": -1.68,
+    "volume": 24558884,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "ZYXW",
+    "date": "2026-08-24",
+    "close": 10370,
+    "change_pct": 0.28,
+    "volume": 12674073,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "ZYXW",
+    "date": "2026-08-25",
+    "close": 10199,
+    "change_pct": -1.65,
+    "volume": 49957376,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "ZYXW",
+    "date": "2026-08-26",
+    "close": 10423,
+    "change_pct": 2.2,
+    "volume": 4369548,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "ZYXW",
+    "date": "2026-08-27",
+    "close": 10505,
+    "change_pct": 0.79,
+    "volume": 7267640,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "ZYXW",
+    "date": "2026-08-28",
+    "close": 10242,
+    "change_pct": -2.5,
+    "volume": 45581529,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "ZYXW",
+    "date": "2026-08-29",
+    "close": 10284,
+    "change_pct": 0.41,
+    "volume": 4912085,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "VVXQ",
+    "date": "2026-08-20",
+    "close": 2750,
+    "change_pct": 0.74,
+    "volume": 30382675,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "VVXQ",
+    "date": "2026-08-21",
+    "close": 2775,
+    "change_pct": 0.91,
+    "volume": 15220520,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "VVXQ",
+    "date": "2026-08-22",
+    "close": 2785,
+    "change_pct": 0.37,
+    "volume": 1911380,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "VVXQ",
+    "date": "2026-08-23",
+    "close": 2774,
+    "change_pct": -0.39,
+    "volume": 18786342,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "VVXQ",
+    "date": "2026-08-24",
+    "close": 2826,
+    "change_pct": 1.86,
+    "volume": 5989603,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "VVXQ",
+    "date": "2026-08-25",
+    "close": 2815,
+    "change_pct": -0.39,
+    "volume": 16470320,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "VVXQ",
+    "date": "2026-08-26",
+    "close": 2825,
+    "change_pct": 0.37,
+    "volume": 4526028,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "VVXQ",
+    "date": "2026-08-27",
+    "close": 2748,
+    "change_pct": -2.73,
+    "volume": 13710821,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "VVXQ",
+    "date": "2026-08-28",
+    "close": 2691,
+    "change_pct": -2.08,
+    "volume": 45253200,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "VVXQ",
+    "date": "2026-08-29",
+    "close": 2703,
+    "change_pct": 0.43,
+    "volume": 34347331,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "JKLZ",
+    "date": "2026-08-20",
+    "close": 8009,
+    "change_pct": 0.72,
+    "volume": 691114,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "JKLZ",
+    "date": "2026-08-21",
+    "close": 8116,
+    "change_pct": 1.34,
+    "volume": 47529696,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "JKLZ",
+    "date": "2026-08-22",
+    "close": 8136,
+    "change_pct": 0.25,
+    "volume": 11859060,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "JKLZ",
+    "date": "2026-08-23",
+    "close": 8191,
+    "change_pct": 0.68,
+    "volume": 13494338,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "JKLZ",
+    "date": "2026-08-24",
+    "close": 8003,
+    "change_pct": -2.29,
+    "volume": 40230508,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "JKLZ",
+    "date": "2026-08-25",
+    "close": 7796,
+    "change_pct": -2.59,
+    "volume": 4402493,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "JKLZ",
+    "date": "2026-08-26",
+    "close": 7936,
+    "change_pct": 1.79,
+    "volume": 38767467,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "JKLZ",
+    "date": "2026-08-27",
+    "close": 7905,
+    "change_pct": -0.39,
+    "volume": 28947699,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "JKLZ",
+    "date": "2026-08-28",
+    "close": 7915,
+    "change_pct": 0.13,
+    "volume": 45486218,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "JKLZ",
+    "date": "2026-08-29",
+    "close": 8065,
+    "change_pct": 1.9,
+    "volume": 40788746,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "MNBV",
+    "date": "2026-08-20",
+    "close": 3166,
+    "change_pct": -2.95,
+    "volume": 22419896,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "MNBV",
+    "date": "2026-08-21",
+    "close": 3209,
+    "change_pct": 1.36,
+    "volume": 37936272,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "MNBV",
+    "date": "2026-08-22",
+    "close": 3259,
+    "change_pct": 1.55,
+    "volume": 48204814,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "MNBV",
+    "date": "2026-08-23",
+    "close": 3200,
+    "change_pct": -1.8,
+    "volume": 41536219,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "MNBV",
+    "date": "2026-08-24",
+    "close": 3247,
+    "change_pct": 1.47,
+    "volume": 13139683,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "MNBV",
+    "date": "2026-08-25",
+    "close": 3207,
+    "change_pct": -1.23,
+    "volume": 3771923,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "MNBV",
+    "date": "2026-08-26",
+    "close": 3183,
+    "change_pct": -0.74,
+    "volume": 31507710,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "MNBV",
+    "date": "2026-08-27",
+    "close": 3142,
+    "change_pct": -1.3,
+    "volume": 2981218,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "MNBV",
+    "date": "2026-08-28",
+    "close": 3206,
+    "change_pct": 2.04,
+    "volume": 41987810,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "MNBV",
+    "date": "2026-08-29",
+    "close": 3116,
+    "change_pct": -2.8,
+    "volume": 42195563,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "PLKJ",
+    "date": "2026-08-20",
+    "close": 7155,
+    "change_pct": 0.92,
+    "volume": 44500095,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "PLKJ",
+    "date": "2026-08-21",
+    "close": 6995,
+    "change_pct": -2.24,
+    "volume": 24729920,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "PLKJ",
+    "date": "2026-08-22",
+    "close": 7119,
+    "change_pct": 1.77,
+    "volume": 34113509,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "PLKJ",
+    "date": "2026-08-23",
+    "close": 7084,
+    "change_pct": -0.49,
+    "volume": 24999321,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "PLKJ",
+    "date": "2026-08-24",
+    "close": 6940,
+    "change_pct": -2.03,
+    "volume": 40056295,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "PLKJ",
+    "date": "2026-08-25",
+    "close": 7006,
+    "change_pct": 0.95,
+    "volume": 45253294,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "PLKJ",
+    "date": "2026-08-26",
+    "close": 7195,
+    "change_pct": 2.7,
+    "volume": 31198135,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "PLKJ",
+    "date": "2026-08-27",
+    "close": 7304,
+    "change_pct": 1.51,
+    "volume": 9119125,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "PLKJ",
+    "date": "2026-08-28",
+    "close": 7311,
+    "change_pct": 0.1,
+    "volume": 7569897,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "PLKJ",
+    "date": "2026-08-29",
+    "close": 7111,
+    "change_pct": -2.73,
+    "volume": 13050115,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "WERT",
+    "date": "2026-08-20",
+    "close": 8993,
+    "change_pct": 2.85,
+    "volume": 28131782,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "WERT",
+    "date": "2026-08-21",
+    "close": 8788,
+    "change_pct": -2.28,
+    "volume": 47553764,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "WERT",
+    "date": "2026-08-22",
+    "close": 8724,
+    "change_pct": -0.73,
+    "volume": 25879034,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "WERT",
+    "date": "2026-08-23",
+    "close": 8638,
+    "change_pct": -0.99,
+    "volume": 21947802,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "WERT",
+    "date": "2026-08-24",
+    "close": 8876,
+    "change_pct": 2.76,
+    "volume": 18316518,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "WERT",
+    "date": "2026-08-25",
+    "close": 8663,
+    "change_pct": -2.4,
+    "volume": 39790459,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "WERT",
+    "date": "2026-08-26",
+    "close": 8424,
+    "change_pct": -2.76,
+    "volume": 32921891,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "WERT",
+    "date": "2026-08-27",
+    "close": 8254,
+    "change_pct": -2.02,
+    "volume": 33698115,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "WERT",
+    "date": "2026-08-28",
+    "close": 8300,
+    "change_pct": 0.56,
+    "volume": 37351876,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "WERT",
+    "date": "2026-08-29",
+    "close": 8262,
+    "change_pct": -0.46,
+    "volume": 45572804,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "ASDG",
+    "date": "2026-08-20",
+    "close": 3214,
+    "change_pct": 2.1,
+    "volume": 14113376,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "ASDG",
+    "date": "2026-08-21",
+    "close": 3299,
+    "change_pct": 2.64,
+    "volume": 47448505,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "ASDG",
+    "date": "2026-08-22",
+    "close": 3360,
+    "change_pct": 1.85,
+    "volume": 3512027,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "ASDG",
+    "date": "2026-08-23",
+    "close": 3330,
+    "change_pct": -0.9,
+    "volume": 12541178,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "ASDG",
+    "date": "2026-08-24",
+    "close": 3317,
+    "change_pct": -0.4,
+    "volume": 4146057,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "ASDG",
+    "date": "2026-08-25",
+    "close": 3383,
+    "change_pct": 1.98,
+    "volume": 16829105,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "ASDG",
+    "date": "2026-08-26",
+    "close": 3385,
+    "change_pct": 0.06,
+    "volume": 10363361,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "ASDG",
+    "date": "2026-08-27",
+    "close": 3402,
+    "change_pct": 0.49,
+    "volume": 44424241,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "ASDG",
+    "date": "2026-08-28",
+    "close": 3441,
+    "change_pct": 1.15,
+    "volume": 14724319,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "ASDG",
+    "date": "2026-08-29",
+    "close": 3460,
+    "change_pct": 0.55,
+    "volume": 38672427,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "FGHJ",
+    "date": "2026-08-20",
+    "close": 6471,
+    "change_pct": -2.65,
+    "volume": 19472181,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "FGHJ",
+    "date": "2026-08-21",
+    "close": 6376,
+    "change_pct": -1.47,
+    "volume": 6133906,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "FGHJ",
+    "date": "2026-08-22",
+    "close": 6388,
+    "change_pct": 0.19,
+    "volume": 36478219,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "FGHJ",
+    "date": "2026-08-23",
+    "close": 6365,
+    "change_pct": -0.36,
+    "volume": 47258073,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "FGHJ",
+    "date": "2026-08-24",
+    "close": 6344,
+    "change_pct": -0.33,
+    "volume": 25199160,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "FGHJ",
+    "date": "2026-08-25",
+    "close": 6430,
+    "change_pct": 1.36,
+    "volume": 44984008,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "FGHJ",
+    "date": "2026-08-26",
+    "close": 6473,
+    "change_pct": 0.67,
+    "volume": 23946049,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "FGHJ",
+    "date": "2026-08-27",
+    "close": 6351,
+    "change_pct": -1.89,
+    "volume": 29194049,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "FGHJ",
+    "date": "2026-08-28",
+    "close": 6181,
+    "change_pct": -2.67,
+    "volume": 32461772,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "FGHJ",
+    "date": "2026-08-29",
+    "close": 6249,
+    "change_pct": 1.1,
+    "volume": 41497514,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "CVBN",
+    "date": "2026-08-20",
+    "close": 1645,
+    "change_pct": 2.35,
+    "volume": 19305674,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "CVBN",
+    "date": "2026-08-21",
+    "close": 1680,
+    "change_pct": 2.14,
+    "volume": 29709786,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "CVBN",
+    "date": "2026-08-22",
+    "close": 1717,
+    "change_pct": 2.19,
+    "volume": 17691234,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "CVBN",
+    "date": "2026-08-23",
+    "close": 1692,
+    "change_pct": -1.43,
+    "volume": 22714184,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "CVBN",
+    "date": "2026-08-24",
+    "close": 1649,
+    "change_pct": -2.57,
+    "volume": 47621562,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "CVBN",
+    "date": "2026-08-25",
+    "close": 1659,
+    "change_pct": 0.59,
+    "volume": 4687634,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "CVBN",
+    "date": "2026-08-26",
+    "close": 1613,
+    "change_pct": -2.77,
+    "volume": 43296902,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "CVBN",
+    "date": "2026-08-27",
+    "close": 1612,
+    "change_pct": -0.05,
+    "volume": 33455768,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "CVBN",
+    "date": "2026-08-28",
+    "close": 1621,
+    "change_pct": 0.54,
+    "volume": 44181219,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "CVBN",
+    "date": "2026-08-29",
+    "close": 1595,
+    "change_pct": -1.63,
+    "volume": 17036523,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "TYUI",
+    "date": "2026-08-20",
+    "close": 8255,
+    "change_pct": 2.09,
+    "volume": 27777306,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "TYUI",
+    "date": "2026-08-21",
+    "close": 8141,
+    "change_pct": -1.38,
+    "volume": 10663810,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "TYUI",
+    "date": "2026-08-22",
+    "close": 8042,
+    "change_pct": -1.21,
+    "volume": 33387797,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "TYUI",
+    "date": "2026-08-23",
+    "close": 7982,
+    "change_pct": -0.74,
+    "volume": 21990564,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "TYUI",
+    "date": "2026-08-24",
+    "close": 7792,
+    "change_pct": -2.38,
+    "volume": 40792796,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "TYUI",
+    "date": "2026-08-25",
+    "close": 7951,
+    "change_pct": 2.04,
+    "volume": 22157299,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "TYUI",
+    "date": "2026-08-26",
+    "close": 7869,
+    "change_pct": -1.03,
+    "volume": 4738335,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "TYUI",
+    "date": "2026-08-27",
+    "close": 7974,
+    "change_pct": 1.33,
+    "volume": 39079939,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "TYUI",
+    "date": "2026-08-28",
+    "close": 8028,
+    "change_pct": 0.68,
+    "volume": 19346397,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "TYUI",
+    "date": "2026-08-29",
+    "close": 8112,
+    "change_pct": 1.05,
+    "volume": 10373846,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "OPQR",
+    "date": "2026-08-20",
+    "close": 3434,
+    "change_pct": -2.2,
+    "volume": 16346919,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "OPQR",
+    "date": "2026-08-21",
+    "close": 3477,
+    "change_pct": 1.24,
+    "volume": 23322673,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "OPQR",
+    "date": "2026-08-22",
+    "close": 3490,
+    "change_pct": 0.37,
+    "volume": 3349655,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "OPQR",
+    "date": "2026-08-23",
+    "close": 3434,
+    "change_pct": -1.6,
+    "volume": 37892897,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "OPQR",
+    "date": "2026-08-24",
+    "close": 3369,
+    "change_pct": -1.9,
+    "volume": 22991235,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "OPQR",
+    "date": "2026-08-25",
+    "close": 3429,
+    "change_pct": 1.78,
+    "volume": 16980919,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "OPQR",
+    "date": "2026-08-26",
+    "close": 3409,
+    "change_pct": -0.57,
+    "volume": 40809230,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "OPQR",
+    "date": "2026-08-27",
+    "close": 3488,
+    "change_pct": 2.33,
+    "volume": 28242436,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "OPQR",
+    "date": "2026-08-28",
+    "close": 3507,
+    "change_pct": 0.54,
+    "volume": 47950121,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "OPQR",
+    "date": "2026-08-29",
+    "close": 3459,
+    "change_pct": -1.36,
+    "volume": 21948851,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "LKJH",
+    "date": "2026-08-20",
+    "close": 9338,
+    "change_pct": 0,
+    "volume": 45334971,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "LKJH",
+    "date": "2026-08-21",
+    "close": 9566,
+    "change_pct": 2.44,
+    "volume": 37488602,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "LKJH",
+    "date": "2026-08-22",
+    "close": 9757,
+    "change_pct": 2,
+    "volume": 13642915,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "LKJH",
+    "date": "2026-08-23",
+    "close": 9906,
+    "change_pct": 1.53,
+    "volume": 9471992,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "LKJH",
+    "date": "2026-08-24",
+    "close": 9916,
+    "change_pct": 0.1,
+    "volume": 49265077,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "LKJH",
+    "date": "2026-08-25",
+    "close": 10141,
+    "change_pct": 2.27,
+    "volume": 16674234,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "LKJH",
+    "date": "2026-08-26",
+    "close": 10429,
+    "change_pct": 2.84,
+    "volume": 38977413,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "LKJH",
+    "date": "2026-08-27",
+    "close": 10721,
+    "change_pct": 2.8,
+    "volume": 37221144,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "LKJH",
+    "date": "2026-08-28",
+    "close": 10939,
+    "change_pct": 2.03,
+    "volume": 15571619,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "LKJH",
+    "date": "2026-08-29",
+    "close": 10900,
+    "change_pct": -0.36,
+    "volume": 14895106,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "BNML",
+    "date": "2026-08-20",
+    "close": 9858,
+    "change_pct": 2.84,
+    "volume": 45042196,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "BNML",
+    "date": "2026-08-21",
+    "close": 9912,
+    "change_pct": 0.55,
+    "volume": 13060421,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "BNML",
+    "date": "2026-08-22",
+    "close": 10176,
+    "change_pct": 2.66,
+    "volume": 30232481,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "BNML",
+    "date": "2026-08-23",
+    "close": 10226,
+    "change_pct": 0.49,
+    "volume": 38023933,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "BNML",
+    "date": "2026-08-24",
+    "close": 10185,
+    "change_pct": -0.4,
+    "volume": 7120092,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "BNML",
+    "date": "2026-08-25",
+    "close": 10034,
+    "change_pct": -1.48,
+    "volume": 35541692,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "BNML",
+    "date": "2026-08-26",
+    "close": 9866,
+    "change_pct": -1.67,
+    "volume": 11530935,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "BNML",
+    "date": "2026-08-27",
+    "close": 9793,
+    "change_pct": -0.74,
+    "volume": 22107210,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "BNML",
+    "date": "2026-08-28",
+    "close": 9504,
+    "change_pct": -2.95,
+    "volume": 6009630,
+    "source": "EOD_CSV"
+  },
+  {
+    "ticker_code": "BNML",
+    "date": "2026-08-29",
+    "close": 9487,
+    "change_pct": -0.18,
+    "volume": 37830025,
+    "source": "EOD_CSV"
+  }
+]

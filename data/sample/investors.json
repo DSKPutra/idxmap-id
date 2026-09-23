@@ -1,0 +1,317 @@
+[
+  {
+    "id": "INV-001",
+    "name": "Bambang Santoso (Data Fiktif)",
+    "type": "ID",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-002",
+    "name": "Orient Pacific Fund Ltd (Data Fiktif)",
+    "type": "IS",
+    "local_foreign": "F",
+    "nationality": "Amerika Serikat"
+  },
+  {
+    "id": "INV-003",
+    "name": "Silverline Partners Ltd (Data Fiktif)",
+    "type": "SC",
+    "local_foreign": "F",
+    "nationality": "Belanda"
+  },
+  {
+    "id": "INV-004",
+    "name": "PT Perusahaan Cipta Karya (Data Fiktif)",
+    "type": "OT",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-005",
+    "name": "Blue Harbor Investment Ltd (Data Fiktif)",
+    "type": "PF",
+    "local_foreign": "F",
+    "nationality": "Singapura"
+  },
+  {
+    "id": "INV-006",
+    "name": "PT Perusahaan Mandiri Group (Data Fiktif)",
+    "type": "OT",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-007",
+    "name": "Meridian Capital Ltd (Data Fiktif) 2",
+    "type": "OT",
+    "local_foreign": "F",
+    "nationality": "Singapura"
+  },
+  {
+    "id": "INV-008",
+    "name": "PT Perusahaan Investama (Data Fiktif)",
+    "type": "CP",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-009",
+    "name": "PT Sekuritas Abadi Jaya (Data Fiktif)",
+    "type": "SC",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-010",
+    "name": "PT Bank Investasi Abadi Jaya (Data Fiktif)",
+    "type": "IB",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-011",
+    "name": "PT Asuransi Investama (Data Fiktif)",
+    "type": "IS",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-012",
+    "name": "PT Perusahaan Abadi Jaya (Data Fiktif)",
+    "type": "CP",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-013",
+    "name": "PT Dana Pensiun Mandiri Group (Data Fiktif)",
+    "type": "PF",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-014",
+    "name": "PT Perusahaan Investama (Data Fiktif) 2",
+    "type": "CP",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-015",
+    "name": "Northbridge Asset Ltd (Data Fiktif) 3",
+    "type": "OT",
+    "local_foreign": "F",
+    "nationality": "Belanda"
+  },
+  {
+    "id": "INV-016",
+    "name": "PT Perusahaan Sentosa (Data Fiktif)",
+    "type": "OT",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-017",
+    "name": "Meridian Capital Ltd (Data Fiktif)",
+    "type": "IS",
+    "local_foreign": "F",
+    "nationality": "Jepang"
+  },
+  {
+    "id": "INV-018",
+    "name": "PT Dana Pensiun Sentosa (Data Fiktif)",
+    "type": "PF",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-019",
+    "name": "Blue Harbor Investment Ltd (Data Fiktif) 4",
+    "type": "SC",
+    "local_foreign": "F",
+    "nationality": "Belanda"
+  },
+  {
+    "id": "INV-020",
+    "name": "PT Asuransi Sekuritas (Data Fiktif)",
+    "type": "IS",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-021",
+    "name": "PT Bank Investasi Cipta Karya (Data Fiktif)",
+    "type": "IB",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-022",
+    "name": "PT Dana Pensiun Abadi Jaya (Data Fiktif)",
+    "type": "PF",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-023",
+    "name": "PT Reksa Dana Cipta Karya (Data Fiktif)",
+    "type": "MF",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-024",
+    "name": "PT Perusahaan Sentosa (Data Fiktif) 2",
+    "type": "CP",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-025",
+    "name": "Meridian Capital Ltd (Data Fiktif) 4",
+    "type": "IB",
+    "local_foreign": "F",
+    "nationality": "Singapura"
+  },
+  {
+    "id": "INV-026",
+    "name": "PT Bank Investasi Mandiri Group (Data Fiktif)",
+    "type": "IB",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-027",
+    "name": "PT Perusahaan Cipta Karya (Data Fiktif) 2",
+    "type": "OT",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-028",
+    "name": "Agus Pratama (Data Fiktif)",
+    "type": "ID",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-029",
+    "name": "PT Asuransi Cipta Karya (Data Fiktif)",
+    "type": "IS",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-030",
+    "name": "Summit Crest Capital Ltd (Data Fiktif) 2",
+    "type": "IB",
+    "local_foreign": "F",
+    "nationality": "Belanda"
+  },
+  {
+    "id": "INV-031",
+    "name": "Summit Crest Capital Ltd (Data Fiktif) 3",
+    "type": "FD",
+    "local_foreign": "F",
+    "nationality": "Belanda"
+  },
+  {
+    "id": "INV-032",
+    "name": "Budi Kusuma (Data Fiktif)",
+    "type": "ID",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-033",
+    "name": "PT Reksa Dana Sekuritas (Data Fiktif)",
+    "type": "MF",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-034",
+    "name": "Agus Santoso (Data Fiktif)",
+    "type": "ID",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-035",
+    "name": "PT Dana Pensiun Abadi Jaya (Data Fiktif) 2",
+    "type": "PF",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-036",
+    "name": "Andi Santoso (Data Fiktif)",
+    "type": "ID",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-037",
+    "name": "Orient Pacific Fund Ltd (Data Fiktif) 2",
+    "type": "PF",
+    "local_foreign": "F",
+    "nationality": "Singapura"
+  },
+  {
+    "id": "INV-038",
+    "name": "Northbridge Asset Ltd (Data Fiktif)",
+    "type": "CP",
+    "local_foreign": "F",
+    "nationality": "Singapura"
+  },
+  {
+    "id": "INV-039",
+    "name": "PT Perusahaan Abadi Jaya (Data Fiktif) 3",
+    "type": "OT",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-040",
+    "name": "Putri Sinaga (Data Fiktif)",
+    "type": "ID",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-041",
+    "name": "PT Sekuritas Sekuritas (Data Fiktif)",
+    "type": "SC",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-042",
+    "name": "PT Yayasan Sentosa (Data Fiktif)",
+    "type": "FD",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-043",
+    "name": "PT Reksa Dana Mandiri Group (Data Fiktif) 2",
+    "type": "MF",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-044",
+    "name": "Bambang Gunawan (Data Fiktif)",
+    "type": "ID",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  },
+  {
+    "id": "INV-045",
+    "name": "PT Sekuritas Sekuritas (Data Fiktif) 2",
+    "type": "SC",
+    "local_foreign": "L",
+    "nationality": "Indonesia"
+  }
+]

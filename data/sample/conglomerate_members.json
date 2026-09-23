@@ -1,0 +1,47 @@
+[
+  {
+    "conglomerate_slug": "grup-nusantara-makmur",
+    "ticker_code": "WERT",
+    "role": "core"
+  },
+  {
+    "conglomerate_slug": "grup-nusantara-makmur",
+    "ticker_code": "QRST",
+    "role": "core"
+  },
+  {
+    "conglomerate_slug": "grup-cahaya-timur",
+    "ticker_code": "FGHJ",
+    "role": "core"
+  },
+  {
+    "conglomerate_slug": "grup-cahaya-timur",
+    "ticker_code": "VVXQ",
+    "role": "affiliate"
+  },
+  {
+    "conglomerate_slug": "grup-cahaya-timur",
+    "ticker_code": "JKLZ",
+    "role": "affiliate"
+  },
+  {
+    "conglomerate_slug": "grup-samudra-abadi",
+    "ticker_code": "ASDG",
+    "role": "core"
+  },
+  {
+    "conglomerate_slug": "grup-samudra-abadi",
+    "ticker_code": "CVBN",
+    "role": "core"
+  },
+  {
+    "conglomerate_slug": "grup-samudra-abadi",
+    "ticker_code": "LKJH",
+    "role": "core"
+  },
+  {
+    "conglomerate_slug": "grup-samudra-abadi",
+    "ticker_code": "MNBV",
+    "role": "affiliate"
+  }
+]
