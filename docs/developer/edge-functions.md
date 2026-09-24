@@ -10,8 +10,8 @@ Menangani permintaan dari halaman [Tanya IDXMap](../panduan-pengguna/tanya-idxma
 
 1. Verifikasi sesi pengguna dari header `Authorization`.
 2. Cek rate limit (20 pertanyaan / 24 jam per pengguna, dicatat di `ai_query_logs`).
-3. Ekstrak kode ticker (regex 4 huruf kapital) dan tebakan nama investor dari pertanyaan.
-4. Query `v_ticker_summary` dan `v_holdings_preview` untuk membangun konteks.
+3. Cocokkan kode ticker yang disebut dalam pertanyaan terhadap daftar `tickers`.
+4. Query `v_ticker_summary` dan `v_ownership_preview` (top-3 breakdown tipe investor per ticker) untuk membangun konteks.
 5. Kirim konteks + pertanyaan ke Gemini API (`gemini-2.0-flash`) dengan system instruction yang membatasi jawaban hanya berdasarkan konteks yang diberikan dan melarang nasihat investasi.
 6. Catat pertanyaan ke `ai_query_logs`, kembalikan jawaban ke frontend.
 

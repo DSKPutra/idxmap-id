@@ -30,8 +30,9 @@ flowchart TB
 
     Gemini["Google Gemini API"]
     Mayar["Mayar.id<br/>(checkout + webhook)"]
-    KSEI["KSEI monthly report<br/>(XLSX/PDF, manual download)"]
-    ETL["scripts/import-ksei.ts"]
+    KSEI["KSEI monthly report<br/>(TXT agregat, manual download)"]
+    IDXAPI["IDX Company Profiles API<br/>(nama & sektor emiten)"]
+    ETL["scripts/build-real-seed.ts"]
 
     UI -->|"REST/RPC via supabase-js"| DB
     UI -->|magic link| Auth
@@ -42,15 +43,16 @@ flowchart TB
     EdgeWebhook -->|"update profiles.is_paid"| DB
     UI -->|"checkout link"| Mayar
     KSEI -->|download| ETL
-    ETL -->|upsert| DB
+    IDXAPI -->|fetch| ETL
+    ETL -->|seed JSON, lalu upsert| DB
 ```
 
 ## Alur data kepemilikan saham
 
-1. Operator mengunduh laporan bulanan KSEI "Pemegang Saham di atas 1%" secara manual dari situs resmi KSEI/IDX.
-2. File (`.xlsx` atau `.pdf`) diletakkan di `data/raw/`.
-3. `scripts/import-ksei.ts` mem-parsing file, menormalisasi nama investor (lihat [Skema Database](skema-database.md)), lalu melakukan upsert ke tabel `tickers`, `investors`, dan `holdings`.
-4. Frontend membaca data melalui **view publik** (`v_ticker_summary`, `v_holdings_preview`, dst.) untuk pengguna gratis, dan langsung dari tabel `holdings` (dengan RLS) untuk pengguna berbayar.
+1. Operator mengunduh laporan bulanan KSEI "Kepemilikan Efek" (`Balancepos<YYYYMMDD>.txt`, agregat per tipe investor) secara manual dari situs resmi KSEI, dan meletakkannya di `data/raw/` (gitignored, diunduh ulang setiap bulan).
+2. Daftar ticker yang dilacak (`data/reference/idx-tracked-tickers.json`, tracked di git) dicocokkan terhadap API publik "Company Profiles" IDX untuk nama & sektor emiten.
+3. `scripts/build-real-seed.ts` mem-parsing file KSEI, menghitung `market_cap`, `change_pct`, dan breakdown per tipe investor, lalu menulis hasilnya ke `data/sample/real/{tickers,ownership_breakdown,prices}.json` untuk di-seed ke tabel `tickers`, `ownership_breakdown`, dan `prices`.
+4. Frontend membaca data melalui **view publik** (`v_ticker_summary`, `v_ownership_preview`, dst.) untuk pengguna gratis, dan langsung dari tabel `ownership_breakdown` (dengan RLS) untuk pengguna berbayar.
 
 ## Alur pembayaran
 
@@ -63,7 +65,7 @@ flowchart TB
 
 Pembatasan akses ditegakkan di **level database** melalui Row Level Security (RLS), bukan hanya di frontend:
 
-- Tabel `holdings` hanya bisa di-`SELECT` oleh pengguna dengan `profiles.is_paid = true`.
-- View `v_holdings_preview` (dibuat dengan `security_invoker = false`) mem-bypass RLS tersebut secara terkontrol untuk mengekspos hanya 5 baris teratas per ticker kepada siapa pun.
+- Tabel `ownership_breakdown` hanya bisa di-`SELECT` oleh pengguna dengan `profiles.is_paid = true`.
+- View `v_ownership_preview` (dibuat dengan `security_invoker = false`) mem-bypass RLS tersebut secara terkontrol untuk mengekspos hanya 3 baris teratas (berdasarkan persentase) per ticker kepada siapa pun.
 
 Lihat [Skema Database & RLS](skema-database.md) untuk detail lengkap.

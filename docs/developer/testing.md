@@ -10,7 +10,6 @@ npm run test:watch  # mode watch
 Cakupan saat ini:
 
 - `src/lib/freeFloat.test.ts` — validasi rumus estimasi free float dan klasifikasi band (`sangat_rendah`, `rendah`, `menengah`, `tinggi`)
-- `src/lib/normalizeName.test.ts` — validasi normalisasi nama investor tetap konsisten di berbagai variasi penulisan ("PT." vs "PT", trailing "Tbk", dst.)
 
 ## Lint & format
 
@@ -33,7 +32,7 @@ npm run dev
 Alur minimal yang perlu diverifikasi setelah perubahan besar:
 
 1. Instant Search dari landing page → buka halaman ticker
-2. Halaman ticker menampilkan preview 5 pemegang saham (belum login) dan paywall CTA muncul
+2. Halaman ticker menampilkan preview top-3 breakdown tipe investor (belum login) dan paywall CTA muncul
 3. Float Screener — filter dan sort berfungsi
 4. Network Graph — ganti ticker fokus dan kedalaman
 5. Heatmap — treemap ter-render dan bisa diklik
