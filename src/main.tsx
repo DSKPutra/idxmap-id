@@ -12,13 +12,21 @@ import './index.css'
 
 // Undo the /404.html query-string trick used for SPA routing on GitHub
 // Pages (no server-side rewrites there) before React Router reads the URL.
+// `p` holds the path+query that came after the repo base (see public/404.html);
+// re-prefix it with BASE_URL so BrowserRouter's basename matches correctly.
+// A no-op on every other host, which never sets `p` in the first place.
 ;(function decodeGithubPagesRedirect() {
   const params = new URLSearchParams(window.location.search)
   const encodedPath = params.get('p')
-  if (!encodedPath) return
-  const restoredSearch = params.get('q') ? `?${params.get('q')!.replace(/~and~/g, '&')}` : ''
-  const restoredPath = encodedPath.replace(/~and~/g, '&')
-  window.history.replaceState(null, '', restoredPath + restoredSearch + window.location.hash)
+  if (encodedPath === null) return
+
+  const decoded = decodeURIComponent(encodedPath)
+  const queryIndex = decoded.indexOf('?')
+  const pathPart = queryIndex === -1 ? decoded : decoded.slice(0, queryIndex)
+  const searchPart = queryIndex === -1 ? '' : decoded.slice(queryIndex)
+
+  const base = import.meta.env.BASE_URL.replace(/\/$/, '')
+  window.history.replaceState(null, '', base + pathPart + searchPart + window.location.hash)
 })()
 
 createRoot(document.getElementById('root')!).render(

@@ -1,32 +1,20 @@
 <!doctype html>
 <!--
-  GitHub Pages has no server-side rewrites, so a deep link like /ticker/BBRI
-  404s at the edge. This page re-encodes the path into a query string and
-  redirects to index.html, which decodes it back (see the inline script in
-  index.html) before React Router takes over. Standard spa-github-pages trick.
+  GitHub Pages has no server-side rewrites, so a deep link like
+  /idxmap-id/ticker/BBCA 404s at the edge. This page encodes the path (minus
+  the repo base) into a query string and redirects to the base URL, which
+  main.tsx decodes back before React Router takes over. Standard
+  spa-github-pages trick, scoped to this repo's fixed base path.
 -->
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
     <title>IDXMap.ID</title>
     <script>
-      var segmentsToKeep = 1 // keep "/idxmap-id" as the repo base path
+      var base = '/idxmap-id'
       var l = window.location
-      var path = l.pathname
-        .split('/')
-        .slice(0, 1 + segmentsToKeep)
-        .join('/')
-      var rest = l.pathname
-        .split('/')
-        .slice(1 + segmentsToKeep)
-        .join('/')
-      l.replace(
-        path +
-          '/?p=/' +
-          rest.replace(/&/g, '~and~') +
-          (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-          l.hash,
-      )
+      var afterBase = l.pathname.indexOf(base) === 0 ? l.pathname.slice(base.length) : l.pathname
+      l.replace(base + '/?p=' + encodeURIComponent(afterBase + l.search) + l.hash)
     </script>
   </head>
   <body></body>
