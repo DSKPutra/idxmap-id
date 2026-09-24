@@ -1,0 +1,618 @@
+[
+  {
+    "code": "ACES",
+    "name": "PT Aspirasi Hidup Indonesia Tbk",
+    "sector": "Barang Konsumen Non-Primer",
+    "subSector": "Perdagangan Ritel",
+    "board": "Utama"
+  },
+  {
+    "code": "ADHI",
+    "name": "PT Adhi Karya (Persero) Tbk.",
+    "sector": "Infrastruktur",
+    "subSector": "Konstruksi Bangunan",
+    "board": "Utama"
+  },
+  {
+    "code": "ADMR",
+    "name": "PT Alamtri Minerals Indonesia Tbk",
+    "sector": "Energi",
+    "subSector": "Minyak, Gas & Batu Bara",
+    "board": "Utama"
+  },
+  {
+    "code": "ADRO",
+    "name": "Alamtri Resources Indonesia Tbk",
+    "sector": "Energi",
+    "subSector": "Minyak, Gas & Batu Bara",
+    "board": "Utama"
+  },
+  {
+    "code": "AKRA",
+    "name": "PT AKR Corporindo Tbk.",
+    "sector": "Energi",
+    "subSector": "Minyak, Gas & Batu Bara",
+    "board": "Utama"
+  },
+  {
+    "code": "AMRT",
+    "name": "PT Sumber Alfaria Trijaya Tbk.",
+    "sector": "Barang Konsumen Primer",
+    "subSector": "Perdagangan Ritel Barang Primer",
+    "board": "Utama"
+  },
+  {
+    "code": "ANTM",
+    "name": "PT ANTAM (Persero) Tbk",
+    "sector": "Barang Baku",
+    "subSector": "Barang Baku",
+    "board": "Utama"
+  },
+  {
+    "code": "APLN",
+    "name": "PT Agung Podomoro Land Tbk.",
+    "sector": "Properti & Real Estat",
+    "subSector": "Properti & Real Estat",
+    "board": "Utama"
+  },
+  {
+    "code": "ARNA",
+    "name": "Arwana Citramulia Tbk",
+    "sector": "Perindustrian",
+    "subSector": "Barang Perindustrian",
+    "board": "Utama"
+  },
+  {
+    "code": "ARTO",
+    "name": "PT Bank Jago Tbk.",
+    "sector": "Keuangan",
+    "subSector": "Bank",
+    "board": "Utama"
+  },
+  {
+    "code": "ASGR",
+    "name": "Astra Graphia Tbk",
+    "sector": "Perindustrian",
+    "subSector": "Jasa Perindustrian",
+    "board": "Utama"
+  },
+  {
+    "code": "ASII",
+    "name": "Astra International Tbk",
+    "sector": "Perindustrian",
+    "subSector": "Perusahaan Holding Multi Sektor",
+    "board": "Utama"
+  },
+  {
+    "code": "ASRI",
+    "name": "ALAM SUTERA REALTY Tbk",
+    "sector": "Properti & Real Estat",
+    "subSector": "Properti & Real Estat",
+    "board": "Utama"
+  },
+  {
+    "code": "AUTO",
+    "name": "Astra Otoparts Tbk",
+    "sector": "Barang Konsumen Non-Primer",
+    "subSector": "Otomotif & Komponen Otomotif",
+    "board": "Utama"
+  },
+  {
+    "code": "AVIA",
+    "name": "PT Avia Avian Tbk",
+    "sector": "Barang Baku",
+    "subSector": "Barang Baku",
+    "board": "Utama"
+  },
+  {
+    "code": "BALI",
+    "name": "PT Bali Towerindo Sentra Tbk.",
+    "sector": "Infrastruktur",
+    "subSector": "Telekomunikasi",
+    "board": "Utama"
+  },
+  {
+    "code": "BBCA",
+    "name": "PT Bank Central Asia Tbk.",
+    "sector": "Keuangan",
+    "subSector": "Bank",
+    "board": "Utama"
+  },
+  {
+    "code": "BBNI",
+    "name": "PT Bank Negara Indonesia (Persero) Tbk",
+    "sector": "Keuangan",
+    "subSector": "Bank",
+    "board": "Utama"
+  },
+  {
+    "code": "BBRI",
+    "name": "PT Bank Rakyat Indonesia (Persero) Tbk",
+    "sector": "Keuangan",
+    "subSector": "Bank",
+    "board": "Utama"
+  },
+  {
+    "code": "BBTN",
+    "name": "PT Bank Tabungan Negara (Persero) Tbk",
+    "sector": "Keuangan",
+    "subSector": "Bank",
+    "board": "Utama"
+  },
+  {
+    "code": "BDMN",
+    "name": "PT Bank Danamon Indonesia Tbk",
+    "sector": "Keuangan",
+    "subSector": "Bank",
+    "board": "Utama"
+  },
+  {
+    "code": "BEST",
+    "name": "Bekasi Fajar Industrial Estate Tbk",
+    "sector": "Properti & Real Estat",
+    "subSector": "Properti & Real Estat",
+    "board": "Utama"
+  },
+  {
+    "code": "BFIN",
+    "name": "BFI Finance Indonesia Tbk",
+    "sector": "Keuangan",
+    "subSector": "Jasa Pembiayaan",
+    "board": "Utama"
+  },
+  {
+    "code": "BMRI",
+    "name": "PT Bank Mandiri (Persero) Tbk",
+    "sector": "Keuangan",
+    "subSector": "Bank",
+    "board": "Utama"
+  },
+  {
+    "code": "BMTR",
+    "name": "PT Global Mediacom Tbk",
+    "sector": "Barang Konsumen Non-Primer",
+    "subSector": "Media & Hiburan",
+    "board": "Utama"
+  },
+  {
+    "code": "BNGA",
+    "name": "PT Bank CIMB Niaga Tbk",
+    "sector": "Keuangan",
+    "subSector": "Bank",
+    "board": "Utama"
+  },
+  {
+    "code": "BRIS",
+    "name": "PT Bank Syariah Indonesia (Persero) Tbk",
+    "sector": "Keuangan",
+    "subSector": "Bank",
+    "board": "Utama"
+  },
+  {
+    "code": "BRPT",
+    "name": "Barito Pacific Tbk",
+    "sector": "Barang Baku",
+    "subSector": "Barang Baku",
+    "board": "Utama"
+  },
+  {
+    "code": "BSDE",
+    "name": "PT Bumi Serpong Damai Tbk",
+    "sector": "Properti & Real Estat",
+    "subSector": "Properti & Real Estat",
+    "board": "Utama"
+  },
+  {
+    "code": "BUDI",
+    "name": "PT Budi Starch & Sweetener Tbk.",
+    "sector": "Barang Konsumen Primer",
+    "subSector": "Makanan & Minuman",
+    "board": "Utama"
+  },
+  {
+    "code": "BUKA",
+    "name": "PT Bukalapak.com Tbk",
+    "sector": "Teknologi",
+    "subSector": "Perangkat Lunak & Jasa TI",
+    "board": "Ekonomi Baru"
+  },
+  {
+    "code": "BUMI",
+    "name": "Bumi Resources Tbk",
+    "sector": "Energi",
+    "subSector": "Minyak, Gas & Batu Bara",
+    "board": "Utama"
+  },
+  {
+    "code": "CPIN",
+    "name": "Charoen Pokphand Indonesia Tbk",
+    "sector": "Barang Konsumen Primer",
+    "subSector": "Makanan & Minuman",
+    "board": "Utama"
+  },
+  {
+    "code": "CTRA",
+    "name": "Ciputra Development Tbk",
+    "sector": "Properti & Real Estat",
+    "subSector": "Properti & Real Estat",
+    "board": "Utama"
+  },
+  {
+    "code": "DCII",
+    "name": "PT DCI Indonesia Tbk",
+    "sector": "Teknologi",
+    "subSector": "Perangkat Lunak & Jasa TI",
+    "board": "Pengembangan"
+  },
+  {
+    "code": "ELSA",
+    "name": "Elnusa Tbk",
+    "sector": "Energi",
+    "subSector": "Minyak, Gas & Batu Bara",
+    "board": "Utama"
+  },
+  {
+    "code": "EMTK",
+    "name": "Elang Mahkota Teknologi Tbk",
+    "sector": "Teknologi",
+    "subSector": "Perangkat Lunak & Jasa TI",
+    "board": "Utama"
+  },
+  {
+    "code": "ERAA",
+    "name": "Erajaya Swasembada Tbk",
+    "sector": "Barang Konsumen Non-Primer",
+    "subSector": "Perdagangan Ritel",
+    "board": "Utama"
+  },
+  {
+    "code": "EXCL",
+    "name": "PT XLSMART Telecom Sejahtera Tbk",
+    "sector": "Infrastruktur",
+    "subSector": "Telekomunikasi",
+    "board": "Utama"
+  },
+  {
+    "code": "GGRM",
+    "name": "Gudang Garam Tbk",
+    "sector": "Barang Konsumen Primer",
+    "subSector": "Rokok",
+    "board": "Utama"
+  },
+  {
+    "code": "GOTO",
+    "name": "PT GoTo Gojek Tokopedia Tbk",
+    "sector": "Teknologi",
+    "subSector": "Perangkat Lunak & Jasa TI",
+    "board": "Pengembangan"
+  },
+  {
+    "code": "HEAL",
+    "name": "PT Medikaloka Hermina Tbk.",
+    "sector": "Kesehatan",
+    "subSector": "Jasa & Peralatan Kesehatan",
+    "board": "Utama"
+  },
+  {
+    "code": "HMSP",
+    "name": "HM Sampoerna Tbk",
+    "sector": "Barang Konsumen Primer",
+    "subSector": "Rokok",
+    "board": "Utama"
+  },
+  {
+    "code": "ICBP",
+    "name": "Indofood CBP Sukses Makmur Tbk",
+    "sector": "Barang Konsumen Primer",
+    "subSector": "Makanan & Minuman",
+    "board": "Utama"
+  },
+  {
+    "code": "INCO",
+    "name": "Vale Indonesia Tbk",
+    "sector": "Barang Baku",
+    "subSector": "Barang Baku",
+    "board": "Utama"
+  },
+  {
+    "code": "INDF",
+    "name": "Indofood Sukses Makmur Tbk",
+    "sector": "Barang Konsumen Primer",
+    "subSector": "Makanan & Minuman",
+    "board": "Utama"
+  },
+  {
+    "code": "INTP",
+    "name": "Indocement Tunggal Prakarsa Tbk",
+    "sector": "Barang Baku",
+    "subSector": "Barang Baku",
+    "board": "Utama"
+  },
+  {
+    "code": "ISAT",
+    "name": "PT Indosat Tbk",
+    "sector": "Infrastruktur",
+    "subSector": "Telekomunikasi",
+    "board": "Utama"
+  },
+  {
+    "code": "ITMG",
+    "name": "Indo Tambangraya Megah Tbk",
+    "sector": "Energi",
+    "subSector": "Minyak, Gas & Batu Bara",
+    "board": "Utama"
+  },
+  {
+    "code": "JPFA",
+    "name": "JAPFA Comfeed Indonesia Tbk",
+    "sector": "Barang Konsumen Primer",
+    "subSector": "Makanan & Minuman",
+    "board": "Utama"
+  },
+  {
+    "code": "JSMR",
+    "name": "PT Jasa Marga Tbk",
+    "sector": "Infrastruktur",
+    "subSector": "Infrastruktur Transportasi",
+    "board": "Utama"
+  },
+  {
+    "code": "KLBF",
+    "name": "Kalbe Farma Tbk",
+    "sector": "Kesehatan",
+    "subSector": "Farmasi & Riset Kesehatan",
+    "board": "Utama"
+  },
+  {
+    "code": "LPPF",
+    "name": "PT MDS Retailing Tbk",
+    "sector": "Barang Konsumen Non-Primer",
+    "subSector": "Perdagangan Ritel",
+    "board": "Utama"
+  },
+  {
+    "code": "MAPI",
+    "name": "PT Mitra Adiperkasa Tbk",
+    "sector": "Barang Konsumen Non-Primer",
+    "subSector": "Perdagangan Ritel",
+    "board": "Utama"
+  },
+  {
+    "code": "MAYA",
+    "name": "PT Bank Mayapada Internasional Tbk",
+    "sector": "Keuangan",
+    "subSector": "Bank",
+    "board": "Utama"
+  },
+  {
+    "code": "MDKA",
+    "name": "PT Merdeka Copper Gold Tbk.",
+    "sector": "Barang Baku",
+    "subSector": "Barang Baku",
+    "board": "Utama"
+  },
+  {
+    "code": "MEDC",
+    "name": "PT Medco Energi Internasional Tbk",
+    "sector": "Energi",
+    "subSector": "Minyak, Gas & Batu Bara",
+    "board": "Utama"
+  },
+  {
+    "code": "MIKA",
+    "name": "PT Mitra Keluarga Karyasehat Tbk.",
+    "sector": "Kesehatan",
+    "subSector": "Jasa & Peralatan Kesehatan",
+    "board": "Utama"
+  },
+  {
+    "code": "MNCN",
+    "name": "Media Nusantara Citra Tbk",
+    "sector": "Barang Konsumen Non-Primer",
+    "subSector": "Media & Hiburan",
+    "board": "Utama"
+  },
+  {
+    "code": "MTDL",
+    "name": "Metrodata Electronics Tbk",
+    "sector": "Teknologi",
+    "subSector": "Perangkat Keras & Peralatan Teknologi",
+    "board": "Utama"
+  },
+  {
+    "code": "MYOR",
+    "name": "Mayora Indah Tbk",
+    "sector": "Barang Konsumen Primer",
+    "subSector": "Makanan & Minuman",
+    "board": "Utama"
+  },
+  {
+    "code": "PGAS",
+    "name": "PT Perusahaan Gas Negara (Persero) Tbk",
+    "sector": "Energi",
+    "subSector": "Minyak, Gas & Batu Bara",
+    "board": "Utama"
+  },
+  {
+    "code": "PTBA",
+    "name": "PT Bukit Asam (Persero) Tbk",
+    "sector": "Energi",
+    "subSector": "Minyak, Gas & Batu Bara",
+    "board": "Utama"
+  },
+  {
+    "code": "PTPP",
+    "name": "PP (Persero) Tbk",
+    "sector": "Infrastruktur",
+    "subSector": "Konstruksi Bangunan",
+    "board": "Utama"
+  },
+  {
+    "code": "PWON",
+    "name": "Pakuwon Jati Tbk",
+    "sector": "Properti & Real Estat",
+    "subSector": "Properti & Real Estat",
+    "board": "Utama"
+  },
+  {
+    "code": "SCMA",
+    "name": "Surya Citra Media Tbk",
+    "sector": "Barang Konsumen Non-Primer",
+    "subSector": "Media & Hiburan",
+    "board": "Utama"
+  },
+  {
+    "code": "SIDO",
+    "name": "PT Industri Jamu Dan Farmasi Sido Muncul Tbk",
+    "sector": "Kesehatan",
+    "subSector": "Farmasi & Riset Kesehatan",
+    "board": "Utama"
+  },
+  {
+    "code": "SILO",
+    "name": "PT Siloam International Hospitals Tbk.",
+    "sector": "Kesehatan",
+    "subSector": "Jasa & Peralatan Kesehatan",
+    "board": "Utama"
+  },
+  {
+    "code": "SMBR",
+    "name": "PT Semen Baturaja (Persero) Tbk",
+    "sector": "Barang Baku",
+    "subSector": "Barang Baku",
+    "board": "Utama"
+  },
+  {
+    "code": "SMGR",
+    "name": "Semen Indonesia (Persero) Tbk",
+    "sector": "Barang Baku",
+    "subSector": "Barang Baku",
+    "board": "Utama"
+  },
+  {
+    "code": "SMRA",
+    "name": "PT Summarecon Agung Tbk",
+    "sector": "Properti & Real Estat",
+    "subSector": "Properti & Real Estat",
+    "board": "Utama"
+  },
+  {
+    "code": "TBIG",
+    "name": "PT Tower Bersama Infrastructure Tbk",
+    "sector": "Infrastruktur",
+    "subSector": "Telekomunikasi",
+    "board": "Utama"
+  },
+  {
+    "code": "TINS",
+    "name": "PT TIMAH (Persero) Tbk",
+    "sector": "Barang Baku",
+    "subSector": "Barang Baku",
+    "board": "Utama"
+  },
+  {
+    "code": "TLKM",
+    "name": "PT Telkom Indonesia (Persero) Tbk",
+    "sector": "Infrastruktur",
+    "subSector": "Telekomunikasi",
+    "board": "Utama"
+  },
+  {
+    "code": "TOWR",
+    "name": "Sarana Menara Nusantara Tbk",
+    "sector": "Infrastruktur",
+    "subSector": "Telekomunikasi",
+    "board": "Utama"
+  },
+  {
+    "code": "TPIA",
+    "name": "PT Chandra Asri Pacific Tbk",
+    "sector": "Barang Baku",
+    "subSector": "Barang Baku",
+    "board": "Utama"
+  },
+  {
+    "code": "ULTJ",
+    "name": "PT Ultrajaya Milk Industry & Trading Company Tbk",
+    "sector": "Barang Konsumen Primer",
+    "subSector": "Makanan & Minuman",
+    "board": "Utama"
+  },
+  {
+    "code": "UNTR",
+    "name": "United Tractors Tbk",
+    "sector": "Perindustrian",
+    "subSector": "Barang Perindustrian",
+    "board": "Utama"
+  },
+  {
+    "code": "UNVR",
+    "name": "Unilever Indonesia Tbk",
+    "sector": "Barang Konsumen Primer",
+    "subSector": "Produk Rumah Tangga Tidak Tahan Lama",
+    "board": "Utama"
+  },
+  {
+    "code": "VIVA",
+    "name": "PT Visi Media Asia Tbk",
+    "sector": "Barang Konsumen Non-Primer",
+    "subSector": "Media & Hiburan",
+    "board": "Pemantauan Khusus"
+  },
+  {
+    "code": "WIIM",
+    "name": "Wismilak Inti Makmur Tbk",
+    "sector": "Barang Konsumen Primer",
+    "subSector": "Rokok",
+    "board": "Utama"
+  },
+  {
+    "code": "WIKA",
+    "name": "PT Wijaya Karya (Persero) Tbk",
+    "sector": "Infrastruktur",
+    "subSector": "Konstruksi Bangunan",
+    "board": "Pemantauan Khusus"
+  },
+  {
+    "code": "WSKT",
+    "name": "PT Waskita Karya (Persero) Tbk",
+    "sector": "Infrastruktur",
+    "subSector": "Konstruksi Bangunan",
+    "board": "Pemantauan Khusus"
+  },
+  {
+    "code": "BNBR",
+    "name": "Bakrie & Brothers Tbk",
+    "sector": "Perindustrian",
+    "subSector": "Perusahaan Holding Multi Sektor",
+    "board": "Pengembangan"
+  },
+  {
+    "code": "DSSA",
+    "name": "Dian Swastatika Sentosa Tbk",
+    "sector": "Energi",
+    "subSector": "Minyak, Gas & Batu Bara",
+    "board": "Utama"
+  },
+  {
+    "code": "LPCK",
+    "name": "Lippo Cikarang Tbk",
+    "sector": "Properti & Real Estat",
+    "subSector": "Properti & Real Estat",
+    "board": "Utama"
+  },
+  {
+    "code": "LPKR",
+    "name": "Lippo Karawaci Tbk",
+    "sector": "Properti & Real Estat",
+    "subSector": "Properti & Real Estat",
+    "board": "Utama"
+  },
+  {
+    "code": "SMAR",
+    "name": "PT Sinar Mas Agro Resources and Technology Tbk",
+    "sector": "Barang Konsumen Primer",
+    "subSector": "Makanan & Minuman",
+    "board": "Utama"
+  }
+]

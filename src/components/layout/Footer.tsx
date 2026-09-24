@@ -68,8 +68,8 @@ export function Footer() {
         <div>
           <h4 className="mb-3 text-sm font-semibold">Data</h4>
           <p className="text-sm text-muted-foreground">
-            Sumber: laporan publik KSEI "Pemegang Saham di atas 1%". IDXMap.ID tidak mengambil data
-            dari situs pihak ketiga selain KSEI/IDX.
+            Sumber: laporan agregat bulanan KSEI "Kepemilikan Efek" dan data emiten resmi IDX.
+            IDXMap.ID tidak mengambil data dari situs pihak ketiga selain KSEI/IDX.
           </p>
         </div>
       </div>

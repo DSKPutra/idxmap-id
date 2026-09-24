@@ -39,7 +39,7 @@ const FEATURES = [
 const FAQ_ID = [
   {
     q: 'Dari mana sumber data IDXMap.ID?',
-    a: 'Seluruh data pemegang saham bersumber dari laporan publik KSEI "Pemegang Saham di atas 1%" yang diterbitkan setiap bulan.',
+    a: 'Seluruh data kepemilikan bersumber dari laporan agregat bulanan KSEI "Kepemilikan Efek" (per tipe investor, lokal/asing) dan data profil emiten resmi IDX.',
   },
   {
     q: 'Apakah ini rekomendasi investasi?',
@@ -47,7 +47,7 @@ const FAQ_ID = [
   },
   {
     q: 'Apa yang didapat dari akses lifetime?',
-    a: 'Akses lifetime membuka tabel pemegang saham lengkap, network graph, float screener, dan Tanya IDXMap (AI) tanpa batas waktu.',
+    a: 'Akses lifetime membuka rincian kepemilikan lengkap 9 tipe investor per ticker dan Tanya IDXMap (AI) tanpa batas waktu.',
   },
   {
     q: 'Bagaimana cara pembayaran?',
@@ -88,7 +88,7 @@ export function Landing() {
               <Link to="/float-screener">{t('hero.ctaPrimary')}</Link>
             </Button>
             <Button asChild size="lg" variant="outline">
-              <Link to="/ticker/QRST">{t('hero.ctaSecondary')}</Link>
+              <Link to="/ticker/BBCA">{t('hero.ctaSecondary')}</Link>
             </Button>
           </div>
         </div>
@@ -98,7 +98,7 @@ export function Landing() {
         <section className="border-b border-border">
           <div className="container grid grid-cols-2 gap-8 py-12 md:grid-cols-4">
             <StatCounter value={stats.ticker_count} label={t('stats.tickers')} />
-            <StatCounter value={stats.investor_count} label={t('stats.investors')} />
+            <StatCounter value={stats.sector_count} label={t('stats.sectors')} />
             <StatCounter value={stats.conglomerate_count} label={t('stats.conglomerates')} />
             <StatCounter value={stats.investor_type_count} label={t('stats.investorTypes')} />
           </div>

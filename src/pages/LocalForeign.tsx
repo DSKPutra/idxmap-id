@@ -34,15 +34,15 @@ export function LocalForeign() {
   })
 
   const chartData = data?.map((row) => ({
-    type: `${INVESTOR_TYPE_LABEL[row.type]?.[lang] ?? row.type} (${row.local_foreign})`,
+    type: `${INVESTOR_TYPE_LABEL[row.investor_type]?.[lang] ?? row.investor_type} (${row.local_foreign})`,
     pct: Number(row.total_pct),
-    fill: row.local_foreign === 'L' ? 'hsl(var(--local))' : 'hsl(var(--foreign))',
   }))
 
   const totalLocal =
     data?.filter((d) => d.local_foreign === 'L').reduce((s, d) => s + Number(d.total_pct), 0) ?? 0
   const totalForeign =
     data?.filter((d) => d.local_foreign === 'F').reduce((s, d) => s + Number(d.total_pct), 0) ?? 0
+  const tickerCount = data?.[0] ? Math.max(...data.map((d) => d.ticker_count)) : 0
 
   return (
     <div className="container py-10">
@@ -59,7 +59,7 @@ export function LocalForeign() {
             </CardTitle>
           </CardHeader>
           <CardContent className="text-3xl font-bold" style={{ color: 'hsl(var(--local))' }}>
-            {formatPercent(totalLocal, 1)}
+            {formatPercent(totalLocal / (tickerCount || 1), 1)}
           </CardContent>
         </Card>
         <Card>
@@ -69,7 +69,7 @@ export function LocalForeign() {
             </CardTitle>
           </CardHeader>
           <CardContent className="text-3xl font-bold" style={{ color: 'hsl(var(--foreign))' }}>
-            {formatPercent(totalForeign, 1)}
+            {formatPercent(totalForeign / (tickerCount || 1), 1)}
           </CardContent>
         </Card>
       </div>
@@ -87,7 +87,7 @@ export function LocalForeign() {
                 <XAxis type="number" tickFormatter={(v) => `${v}%`} />
                 <YAxis type="category" dataKey="type" width={160} tick={{ fontSize: 12 }} />
                 <ReTooltip formatter={(v: number) => formatPercent(v, 2)} />
-                <Bar dataKey="pct" radius={[0, 4, 4, 0]} />
+                <Bar dataKey="pct" radius={[0, 4, 4, 0]} fill="hsl(var(--primary))" />
               </BarChart>
             </ResponsiveContainer>
           )}
@@ -101,18 +101,20 @@ export function LocalForeign() {
               <TableRow>
                 <TableHead>{t('ticker.type')}</TableHead>
                 <TableHead>{t('ticker.status')}</TableHead>
-                <TableHead className="text-right">Jumlah Investor</TableHead>
+                <TableHead className="text-right">Jumlah Ticker</TableHead>
                 <TableHead className="text-right">Total %</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
               {data?.map((row) => (
-                <TableRow key={`${row.type}-${row.local_foreign}`}>
-                  <TableCell>{INVESTOR_TYPE_LABEL[row.type]?.[lang] ?? row.type}</TableCell>
+                <TableRow key={`${row.investor_type}-${row.local_foreign}`}>
+                  <TableCell>
+                    {INVESTOR_TYPE_LABEL[row.investor_type]?.[lang] ?? row.investor_type}
+                  </TableCell>
                   <TableCell>
                     {row.local_foreign === 'L' ? t('ticker.local') : t('ticker.foreign')}
                   </TableCell>
-                  <TableCell className="text-right">{row.investor_count}</TableCell>
+                  <TableCell className="text-right">{row.ticker_count}</TableCell>
                   <TableCell className="text-right font-mono">
                     {formatPercent(Number(row.total_pct), 2)}
                   </TableCell>

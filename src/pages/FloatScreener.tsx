@@ -21,7 +21,7 @@ import { useI18n } from '@/lib/i18n'
 import { supabase } from '@/lib/supabase'
 import { cn, formatCompactNumber, formatPercent } from '@/lib/utils'
 
-type SortKey = 'code' | 'market_cap' | 'free_float_pct' | 'holder_count'
+type SortKey = 'code' | 'market_cap' | 'free_float_pct' | 'local_pct'
 
 const FILTERS: {
   value: FreeFloatBand | 'all'
@@ -117,9 +117,9 @@ export function FloatScreener() {
                   align="right"
                 />
                 <SortableHead
-                  label={t('ticker.holders')}
-                  active={sortKey === 'holder_count'}
-                  onClick={() => toggleSort('holder_count')}
+                  label={t('ticker.local')}
+                  active={sortKey === 'local_pct'}
+                  onClick={() => toggleSort('local_pct')}
                   align="right"
                 />
                 <SortableHead
@@ -147,7 +147,9 @@ export function FloatScreener() {
                     <TableCell className="text-right font-mono">
                       {row.market_cap ? formatCompactNumber(row.market_cap) : '-'}
                     </TableCell>
-                    <TableCell className="text-right">{row.holder_count}</TableCell>
+                    <TableCell className="text-right font-mono">
+                      {formatPercent(Number(row.local_pct), 1)}
+                    </TableCell>
                     <TableCell
                       className={cn(
                         'text-right font-mono font-semibold',

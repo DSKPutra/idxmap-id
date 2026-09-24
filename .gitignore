@@ -39,3 +39,5 @@ data/raw/*
 
 # Coverage
 coverage
+.vercel
+.netlify

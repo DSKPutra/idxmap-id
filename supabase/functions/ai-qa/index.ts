@@ -96,78 +96,61 @@ function json(body: unknown, status = 200) {
   })
 }
 
-/** Pulls out ticker codes (4 uppercase letters) and quoted/likely investor names, then queries Postgres for grounding context. */
+/**
+ * Pulls out ticker codes mentioned in the question and grounds the answer in
+ * real KSEI aggregate ownership data (per ticker x investor type x
+ * local/foreign). Named individual holders aren't available in bulk public
+ * data — see docs/developer/etl-import-ksei.md — so retrieval stops at the
+ * investor-type breakdown, which is exactly what's real.
+ */
 async function buildRetrievalContext(
   supabase: ReturnType<typeof createClient>,
   question: string,
 ): Promise<string> {
   const chunks: string[] = []
 
-  const tickerMatches = [...question.toUpperCase().matchAll(/\b[A-Z]{4}\b/g)].map((m) => m[0])
-  if (tickerMatches.length > 0) {
-    const { data: summaries } = await supabase
+  const { data: allTickers } = await supabase.from('tickers').select('code')
+  const knownCodes = new Set((allTickers ?? []).map((t) => t.code as string))
+  const tickerMatches = [
+    ...new Set([...question.toUpperCase().matchAll(/\b[A-Z]{4}\b/g)].map((m) => m[0])),
+  ].filter((code) => knownCodes.has(code))
+
+  for (const code of tickerMatches) {
+    const { data: s } = await supabase
       .from('v_ticker_summary')
-      .select(
-        'code, name, sector, holder_count, local_pct, foreign_pct, free_float_pct, report_date',
-      )
-      .in('code', tickerMatches)
-    for (const s of summaries ?? []) {
-      chunks.push(
-        `Ticker ${s.code} (${s.name}, sektor ${s.sector ?? '-'}): ${s.holder_count} pemegang saham >1% per ${s.report_date}. ` +
-          `Lokal ${Number(s.local_pct).toFixed(1)}%, Asing ${Number(s.foreign_pct).toFixed(1)}%, estimasi free float ${Number(s.free_float_pct).toFixed(1)}%.`,
-      )
+      .select('code, name, sector, local_pct, foreign_pct, free_float_pct, market_cap, report_date')
+      .eq('code', code)
+      .maybeSingle()
+    if (!s) continue
 
-      const { data: top } = await supabase
-        .from('v_holdings_preview')
-        .select('investor_name, investor_type, local_foreign, percentage')
-        .eq('ticker_code', s.code)
-        .order('percentage', { ascending: false })
-        .limit(5)
-      for (const h of top ?? []) {
-        chunks.push(
-          `  - ${h.investor_name} (${h.investor_type}, ${h.local_foreign === 'L' ? 'Lokal' : 'Asing'}): ${Number(h.percentage).toFixed(2)}% di ${s.code}`,
-        )
-      }
-    }
-  }
+    chunks.push(
+      `Ticker ${s.code} (${s.name}, sektor ${s.sector ?? '-'}) per ${s.report_date}: ` +
+        `kepemilikan Lokal ${Number(s.local_pct).toFixed(1)}%, Asing ${Number(s.foreign_pct).toFixed(1)}%, ` +
+        `estimasi free float ${Number(s.free_float_pct).toFixed(1)}%, kapitalisasi pasar Rp${Number(s.market_cap ?? 0).toLocaleString('id-ID')}.`,
+    )
 
-  // Fuzzy investor-name lookup: try the longest capitalized word sequence in the question.
-  const nameGuess = question
-    .split(/[?.!]/)[0]
-    ?.replace(/\b(siapa|pemegang saham|terbesar|di|who|is|the|largest|shareholder|of)\b/gi, '')
-    .trim()
-  if (nameGuess && nameGuess.length > 2) {
-    const { data: investors } = await supabase
-      .from('investors')
-      .select('id, name, type, local_foreign')
-      .ilike('name', `%${nameGuess}%`)
-      .limit(3)
-    for (const inv of investors ?? []) {
-      const { data: positions } = await supabase
-        .from('v_holdings_preview')
-        .select('ticker_code, percentage')
-        .eq('investor_id', inv.id)
-        .order('percentage', { ascending: false })
-        .limit(5)
+    const { data: breakdown } = await supabase
+      .from('v_ownership_preview')
+      .select('investor_type, local_foreign, percentage')
+      .eq('ticker_code', code)
+      .order('percentage', { ascending: false })
+    for (const b of breakdown ?? []) {
       chunks.push(
-        `Investor ${inv.name} (${inv.type}, ${inv.local_foreign === 'L' ? 'Lokal' : 'Asing'}) memiliki posisi di: ` +
-          (positions ?? [])
-            .map((p) => `${p.ticker_code} (${Number(p.percentage).toFixed(2)}%)`)
-            .join(', '),
+        `  - Tipe ${b.investor_type} (${b.local_foreign === 'L' ? 'Lokal' : 'Asing'}): ${Number(b.percentage).toFixed(2)}% di ${code}`,
       )
     }
   }
 
   return chunks.length > 0
     ? chunks.join('\n')
-    : 'Tidak ditemukan data spesifik di database untuk pertanyaan ini — jawab berdasarkan konteks umum dan sarankan pengguna mengecek ticker/nama investor secara eksplisit.'
+    : 'Tidak ditemukan ticker yang cocok di database untuk pertanyaan ini. Data IDXMap.ID adalah agregat kepemilikan per TIPE investor (bukan nama investor individu) bersumber dari laporan bulanan KSEI — sarankan pengguna menyebutkan kode ticker secara eksplisit (mis. BBCA, TLKM).'
 }
 
 async function askGemini(question: string, context: string, lang: 'id' | 'en'): Promise<string> {
   const systemInstruction =
     lang === 'en'
-      ? 'You are "Tanya IDXMap", an assistant for IDXMap.ID answering questions about Indonesian stock exchange (IDX) shareholder data sourced from KSEI reports. Answer ONLY using the provided context. If the context does not contain the answer, say so plainly and suggest the user search a specific ticker or investor name. Never give investment advice or recommendations. Be concise.'
-      : 'Anda adalah "Tanya IDXMap", asisten IDXMap.ID yang menjawab pertanyaan seputar data kepemilikan saham Bursa Efek Indonesia (BEI) bersumber dari laporan KSEI. Jawab HANYA berdasarkan konteks yang diberikan. Jika konteks tidak memuat jawabannya, katakan dengan jelas dan sarankan pengguna mencari ticker atau nama investor secara spesifik. Jangan pernah memberi rekomendasi atau nasihat investasi. Jawab secara ringkas.'
+      ? "You are \"Tanya IDXMap\", an assistant for IDXMap.ID answering questions about Indonesian stock exchange (IDX) ownership composition sourced from KSEI's monthly aggregate report. Data is broken down by investor TYPE (corporate, individual, mutual fund, etc.) and local/foreign — NOT by named individual shareholders, since that granularity isn't published in bulk. Answer ONLY using the provided context. If asked for a specific investor's name, explain that only aggregate type-level data is available and suggest a ticker code instead. Never give investment advice or recommendations. Be concise."
+      : 'Anda adalah "Tanya IDXMap", asisten IDXMap.ID yang menjawab pertanyaan seputar komposisi kepemilikan saham Bursa Efek Indonesia (BEI) bersumber dari laporan agregat bulanan KSEI. Data dipecah per TIPE investor (korporasi, individu, reksa dana, dst.) dan lokal/asing — BUKAN per nama pemegang saham individu, karena granularitas itu tidak dipublikasikan secara massal. Jawab HANYA berdasarkan konteks yang diberikan. Jika ditanya nama investor tertentu, jelaskan bahwa hanya data agregat per tipe yang tersedia dan sarankan menyebutkan kode ticker. Jangan pernah memberi rekomendasi atau nasihat investasi. Jawab secara ringkas.'
 
   const response = await fetch(
     `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_API_KEY}`,

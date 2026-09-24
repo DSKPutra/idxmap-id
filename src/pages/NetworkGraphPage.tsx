@@ -10,18 +10,26 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select'
-import { useI18n } from '@/lib/i18n'
+import { INVESTOR_TYPE_LABEL, useI18n } from '@/lib/i18n'
 import { supabase } from '@/lib/supabase'
 
 interface RawEdge {
   ticker_code: string
-  investor_id: string
-  investor_name: string
+  investor_type: string
+  local_foreign: 'L' | 'F'
   percentage: number
 }
 
+/**
+ * Real per-investor names aren't publicly available in bulk (see
+ * docs/developer/etl-import-ksei.md), so the graph connects each ticker to
+ * the investor-type "buckets" that hold it (e.g. "CP-L", "MF-F") — 18 shared
+ * type nodes across the whole market. Two tickers sharing a strong edge to
+ * the same type node have a similar ownership profile (e.g. both heavily
+ * foreign-broker-held).
+ */
 export function NetworkGraphPage() {
-  const { t } = useI18n()
+  const { t, lang } = useI18n()
   const navigate = useNavigate()
   const [focalTicker, setFocalTicker] = useState<string>('')
   const [depth, setDepth] = useState<1 | 2>(1)
@@ -38,25 +46,11 @@ export function NetworkGraphPage() {
   const { data: edges, isLoading } = useQuery({
     queryKey: ['network-edges'],
     queryFn: async (): Promise<RawEdge[]> => {
-      const full = await supabase
-        .from('holdings')
-        .select('ticker_code, investor_id, percentage, investors(name)')
-      const source = !full.error && full.data && full.data.length > 0 ? full.data : null
-
-      if (source) {
-        return source.map((r) => ({
-          ticker_code: r.ticker_code,
-          investor_id: r.investor_id,
-          investor_name: (r.investors as unknown as { name: string })?.name ?? '-',
-          percentage: Number(r.percentage),
-        }))
-      }
-
-      const preview = await supabase
-        .from('v_holdings_preview')
-        .select('ticker_code, investor_id, investor_name, percentage')
-      if (preview.error) throw preview.error
-      return (preview.data ?? []).map((r) => ({ ...r, percentage: Number(r.percentage) }))
+      const { data, error } = await supabase
+        .from('v_ownership_preview')
+        .select('ticker_code, investor_type, local_foreign, percentage')
+      if (error) throw error
+      return (data ?? []).map((r) => ({ ...r, percentage: Number(r.percentage) }))
     },
   })
 
@@ -65,15 +59,19 @@ export function NetworkGraphPage() {
   const { nodes, links } = useMemo(() => {
     if (!edges || edges.length === 0) return { nodes: [] as GraphNode[], links: [] as GraphLink[] }
 
-    // Build an adjacency map ticker<->investor, then BFS from the focal ticker up to `depth` hops.
+    const typeNodeId = (investorType: string, localForeign: string) =>
+      `type:${investorType}-${localForeign}`
+
     const adjacency = new Map<string, Set<string>>()
     const addEdge = (a: string, b: string) => {
       if (!adjacency.has(a)) adjacency.set(a, new Set())
       adjacency.get(a)!.add(b)
     }
     for (const e of edges) {
-      addEdge(`t:${e.ticker_code}`, `i:${e.investor_id}`)
-      addEdge(`i:${e.investor_id}`, `t:${e.ticker_code}`)
+      const tNode = `t:${e.ticker_code}`
+      const typeNode = typeNodeId(e.investor_type, e.local_foreign)
+      addEdge(tNode, typeNode)
+      addEdge(typeNode, tNode)
     }
 
     const start = `t:${focal}`
@@ -94,14 +92,17 @@ export function NetworkGraphPage() {
 
     const includedIds = new Set(visited.keys())
     const tickerWeight = new Map<string, number>()
-    const investorLabel = new Map<string, string>()
+    const typeWeight = new Map<string, number>()
 
     const filteredEdges = edges.filter(
-      (e) => includedIds.has(`t:${e.ticker_code}`) && includedIds.has(`i:${e.investor_id}`),
+      (e) =>
+        includedIds.has(`t:${e.ticker_code}`) &&
+        includedIds.has(typeNodeId(e.investor_type, e.local_foreign)),
     )
     for (const e of filteredEdges) {
+      const typeNode = typeNodeId(e.investor_type, e.local_foreign)
       tickerWeight.set(e.ticker_code, (tickerWeight.get(e.ticker_code) ?? 0) + e.percentage)
-      investorLabel.set(e.investor_id, e.investor_name)
+      typeWeight.set(typeNode, (typeWeight.get(typeNode) ?? 0) + e.percentage)
     }
 
     const nodes: GraphNode[] = [
@@ -111,22 +112,21 @@ export function NetworkGraphPage() {
         kind: 'ticker' as const,
         weight,
       })),
-      ...Array.from(investorLabel.entries()).map(([id, name]) => ({
-        id: `i:${id}`,
-        label: name,
-        kind: 'investor' as const,
-        weight: 8,
-      })),
+      ...Array.from(typeWeight.entries()).map(([id, weight]) => {
+        const [investorType, localForeign] = id.replace('type:', '').split('-')
+        const label = `${INVESTOR_TYPE_LABEL[investorType!]?.[lang] ?? investorType} (${localForeign})`
+        return { id, label, kind: 'investor' as const, weight }
+      }),
     ]
 
     const links: GraphLink[] = filteredEdges.map((e) => ({
       source: `t:${e.ticker_code}`,
-      target: `i:${e.investor_id}`,
+      target: typeNodeId(e.investor_type, e.local_foreign),
       value: e.percentage,
     }))
 
     return { nodes, links }
-  }, [edges, focal, depth])
+  }, [edges, focal, depth, lang])
 
   return (
     <div className="container py-10">
@@ -172,7 +172,6 @@ export function NetworkGraphPage() {
               links={links}
               onNodeClick={(node) => {
                 if (node.kind === 'ticker') navigate(`/ticker/${node.label}`)
-                else navigate(`/investor/${node.id.slice(2)}`)
               }}
             />
           )}

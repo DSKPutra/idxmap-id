@@ -14,7 +14,6 @@ const NAV_LINKS: {
     | 'nav.conglomerates'
     | 'nav.network'
     | 'nav.localForeign'
-    | 'nav.mutualFunds'
     | 'nav.floatScreener'
     | 'nav.heatmap'
     | 'nav.aiQa'
@@ -22,7 +21,6 @@ const NAV_LINKS: {
   { to: '/konglomerasi', key: 'nav.conglomerates' },
   { to: '/jaringan', key: 'nav.network' },
   { to: '/lokal-asing', key: 'nav.localForeign' },
-  { to: '/reksa-dana', key: 'nav.mutualFunds' },
   { to: '/float-screener', key: 'nav.floatScreener' },
   { to: '/heatmap', key: 'nav.heatmap' },
   { to: '/tanya', key: 'nav.aiQa' },

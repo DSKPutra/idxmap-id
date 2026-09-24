@@ -6,9 +6,6 @@ import { Landing } from '@/pages/Landing'
 const TickerDetail = lazy(() =>
   import('@/pages/TickerDetail').then((m) => ({ default: m.TickerDetail })),
 )
-const InvestorDetail = lazy(() =>
-  import('@/pages/InvestorDetail').then((m) => ({ default: m.InvestorDetail })),
-)
 const Conglomerates = lazy(() =>
   import('@/pages/Conglomerates').then((m) => ({ default: m.Conglomerates })),
 )
@@ -20,9 +17,6 @@ const NetworkGraphPage = lazy(() =>
 )
 const LocalForeign = lazy(() =>
   import('@/pages/LocalForeign').then((m) => ({ default: m.LocalForeign })),
-)
-const MutualFunds = lazy(() =>
-  import('@/pages/MutualFunds').then((m) => ({ default: m.MutualFunds })),
 )
 const FloatScreener = lazy(() =>
   import('@/pages/FloatScreener').then((m) => ({ default: m.FloatScreener })),
@@ -44,12 +38,10 @@ export function App() {
         <Route element={<Layout />}>
           <Route index element={<Landing />} />
           <Route path="ticker/:code" element={<TickerDetail />} />
-          <Route path="investor/:id" element={<InvestorDetail />} />
           <Route path="konglomerasi" element={<Conglomerates />} />
           <Route path="konglomerasi/:slug" element={<ConglomerateDetail />} />
           <Route path="jaringan" element={<NetworkGraphPage />} />
           <Route path="lokal-asing" element={<LocalForeign />} />
-          <Route path="reksa-dana" element={<MutualFunds />} />
           <Route path="float-screener" element={<FloatScreener />} />
           <Route path="heatmap" element={<Heatmap />} />
           <Route path="tanya" element={<AiQa />} />

@@ -1,0 +1,706 @@
+[
+  {
+    "code": "ACES",
+    "name": "PT Aspirasi Hidup Indonesia Tbk",
+    "sector": "Barang Konsumen Non-Primer",
+    "listed_shares": 17120389700,
+    "market_cap": 6094858733200,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "ADHI",
+    "name": "PT Adhi Karya (Persero) Tbk.",
+    "sector": "Infrastruktur",
+    "listed_shares": 8407608979,
+    "market_cap": 1118211994207,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "ADMR",
+    "name": "PT Alamtri Minerals Indonesia Tbk",
+    "sector": "Energi",
+    "listed_shares": 40882331500,
+    "market_cap": 71544080125000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "ADRO",
+    "name": "Alamtri Resources Indonesia Tbk",
+    "sector": "Energi",
+    "listed_shares": 28800494200,
+    "market_cap": 81793403528000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "AKRA",
+    "name": "PT AKR Corporindo Tbk.",
+    "sector": "Energi",
+    "listed_shares": 20073474600,
+    "market_cap": 29206905543000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "AMRT",
+    "name": "PT Sumber Alfaria Trijaya Tbk.",
+    "sector": "Barang Konsumen Primer",
+    "listed_shares": 41524501700,
+    "market_cap": 55435209769500,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "ANTM",
+    "name": "PT ANTAM (Persero) Tbk",
+    "sector": "Barang Baku",
+    "listed_shares": 24030764725,
+    "market_cap": 74495370647500,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "APLN",
+    "name": "PT Agung Podomoro Land Tbk.",
+    "sector": "Properti & Real Estat",
+    "listed_shares": 22699326779,
+    "market_cap": 3064409115165,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "ARNA",
+    "name": "Arwana Citramulia Tbk",
+    "sector": "Perindustrian",
+    "listed_shares": 7341430976,
+    "market_cap": 3656032626048,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "ARTO",
+    "name": "PT Bank Jago Tbk.",
+    "sector": "Keuangan",
+    "listed_shares": 13861330900,
+    "market_cap": 13445490973000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "ASGR",
+    "name": "Astra Graphia Tbk",
+    "sector": "Perindustrian",
+    "listed_shares": 1348780500,
+    "market_cap": 3007780515000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "ASII",
+    "name": "Astra International Tbk",
+    "sector": "Perindustrian",
+    "listed_shares": 40483553140,
+    "market_cap": 194321055072000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "ASRI",
+    "name": "ALAM SUTERA REALTY Tbk",
+    "sector": "Properti & Real Estat",
+    "listed_shares": 19649411888,
+    "market_cap": 2456176486000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "AUTO",
+    "name": "Astra Otoparts Tbk",
+    "sector": "Barang Konsumen Non-Primer",
+    "listed_shares": 4819733000,
+    "market_cap": 16531684190000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "AVIA",
+    "name": "PT Avia Avian Tbk",
+    "sector": "Barang Baku",
+    "listed_shares": 61953555600,
+    "market_cap": 23170629794400,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "BALI",
+    "name": "PT Bali Towerindo Sentra Tbk.",
+    "sector": "Infrastruktur",
+    "listed_shares": 3934592500,
+    "market_cap": 5508429500000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "BBCA",
+    "name": "PT Bank Central Asia Tbk.",
+    "sector": "Keuangan",
+    "listed_shares": 123275050000,
+    "market_cap": 798205948750000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "BBNI",
+    "name": "PT Bank Negara Indonesia (Persero) Tbk",
+    "sector": "Keuangan",
+    "listed_shares": 37297312916,
+    "market_cap": 143967627855760,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "BBRI",
+    "name": "PT Bank Rakyat Indonesia (Persero) Tbk",
+    "sector": "Keuangan",
+    "listed_shares": 151559001604,
+    "market_cap": 492566755213000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "BBTN",
+    "name": "PT Bank Tabungan Negara (Persero) Tbk",
+    "sector": "Keuangan",
+    "listed_shares": 14034444413,
+    "market_cap": 17402711072120,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "BDMN",
+    "name": "PT Bank Danamon Indonesia Tbk",
+    "sector": "Keuangan",
+    "listed_shares": 9773552870,
+    "market_cap": 42026277341000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "BEST",
+    "name": "Bekasi Fajar Industrial Estate Tbk",
+    "sector": "Properti & Real Estat",
+    "listed_shares": 9647311150,
+    "market_cap": 1340976249850,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "BFIN",
+    "name": "BFI Finance Indonesia Tbk",
+    "sector": "Keuangan",
+    "listed_shares": 15039383620,
+    "market_cap": 13986626766600,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "BMRI",
+    "name": "PT Bank Mandiri (Persero) Tbk",
+    "sector": "Keuangan",
+    "listed_shares": 93333333332,
+    "market_cap": 394799999994360,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "BMTR",
+    "name": "PT Global Mediacom Tbk",
+    "sector": "Barang Konsumen Non-Primer",
+    "listed_shares": 16583997586,
+    "market_cap": 1873991727218,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "BNGA",
+    "name": "PT Bank CIMB Niaga Tbk",
+    "sector": "Keuangan",
+    "listed_shares": 25142205843,
+    "market_cap": 42364616845455,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "BRIS",
+    "name": "PT Bank Syariah Indonesia (Persero) Tbk",
+    "sector": "Keuangan",
+    "listed_shares": 46129260138,
+    "market_cap": 81879436744950,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "BRPT",
+    "name": "Barito Pacific Tbk",
+    "sector": "Barang Baku",
+    "listed_shares": 93747218044,
+    "market_cap": 167338784208540,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "BSDE",
+    "name": "PT Bumi Serpong Damai Tbk",
+    "sector": "Properti & Real Estat",
+    "listed_shares": 21171365812,
+    "market_cap": 13761387777800,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "BUDI",
+    "name": "PT Budi Starch & Sweetener Tbk.",
+    "sector": "Barang Konsumen Primer",
+    "listed_shares": 4498997362,
+    "market_cap": 1070761372156,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "BUKA",
+    "name": "PT Bukalapak.com Tbk",
+    "sector": "Teknologi",
+    "listed_shares": 103167090767,
+    "market_cap": 10832544530535,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "BUMI",
+    "name": "Bumi Resources Tbk",
+    "sector": "Energi",
+    "listed_shares": 371335392068,
+    "market_cap": 71296395277056,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "CPIN",
+    "name": "Charoen Pokphand Indonesia Tbk",
+    "sector": "Barang Konsumen Primer",
+    "listed_shares": 16398000000,
+    "market_cap": 48866040000000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "CTRA",
+    "name": "Ciputra Development Tbk",
+    "sector": "Properti & Real Estat",
+    "listed_shares": 18535695255,
+    "market_cap": 11862844963200,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "DCII",
+    "name": "PT DCI Indonesia Tbk",
+    "sector": "Teknologi",
+    "listed_shares": 2383745900,
+    "market_cap": 476987554590000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "ELSA",
+    "name": "Elnusa Tbk",
+    "sector": "Energi",
+    "listed_shares": 7298500000,
+    "market_cap": 5254920000000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "EMTK",
+    "name": "Elang Mahkota Teknologi Tbk",
+    "sector": "Teknologi",
+    "listed_shares": 61426451483,
+    "market_cap": 31634622513745,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "ERAA",
+    "name": "Erajaya Swasembada Tbk",
+    "sector": "Barang Konsumen Non-Primer",
+    "listed_shares": 15950000000,
+    "market_cap": 7879300000000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "EXCL",
+    "name": "PT XLSMART Telecom Sejahtera Tbk",
+    "sector": "Infrastruktur",
+    "listed_shares": 18199862451,
+    "market_cap": 51323612111820,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "GGRM",
+    "name": "Gudang Garam Tbk",
+    "sector": "Barang Konsumen Primer",
+    "listed_shares": 1924088000,
+    "market_cap": 40021030400000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "GOTO",
+    "name": "PT GoTo Gojek Tokopedia Tbk",
+    "sector": "Teknologi",
+    "listed_shares": 1191144997220,
+    "market_cap": 59557249861000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "HEAL",
+    "name": "PT Medikaloka Hermina Tbk.",
+    "sector": "Kesehatan",
+    "listed_shares": 15365950000,
+    "market_cap": 9911037750000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "HMSP",
+    "name": "HM Sampoerna Tbk",
+    "sector": "Barang Konsumen Primer",
+    "listed_shares": 116318076900,
+    "market_cap": 86075376906000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "ICBP",
+    "name": "Indofood CBP Sukses Makmur Tbk",
+    "sector": "Barang Konsumen Primer",
+    "listed_shares": 11661908000,
+    "market_cap": 88630500800000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "INCO",
+    "name": "Vale Indonesia Tbk",
+    "sector": "Barang Baku",
+    "listed_shares": 10539784534,
+    "market_cap": 55333868803500,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "INDF",
+    "name": "Indofood Sukses Makmur Tbk",
+    "sector": "Barang Konsumen Primer",
+    "listed_shares": 8780426500,
+    "market_cap": 65853198750000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "INTP",
+    "name": "Indocement Tunggal Prakarsa Tbk",
+    "sector": "Barang Baku",
+    "listed_shares": 3431073399,
+    "market_cap": 18956680529475,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "ISAT",
+    "name": "PT Indosat Tbk",
+    "sector": "Infrastruktur",
+    "listed_shares": 32250810957,
+    "market_cap": 80627027392500,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "ITMG",
+    "name": "Indo Tambangraya Megah Tbk",
+    "sector": "Energi",
+    "listed_shares": 1129925000,
+    "market_cap": 29434546250000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "JPFA",
+    "name": "JAPFA Comfeed Indonesia Tbk",
+    "sector": "Barang Konsumen Primer",
+    "listed_shares": 11726575201,
+    "market_cap": 25798465442200,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "JSMR",
+    "name": "PT Jasa Marga Tbk",
+    "sector": "Infrastruktur",
+    "listed_shares": 7257871200,
+    "market_cap": 21483298752000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "KLBF",
+    "name": "Kalbe Farma Tbk",
+    "sector": "Kesehatan",
+    "listed_shares": 46813391540,
+    "market_cap": 36748512358900,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "LPPF",
+    "name": "PT MDS Retailing Tbk",
+    "sector": "Barang Konsumen Non-Primer",
+    "listed_shares": 2227279280,
+    "market_cap": 3563646848000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "MAPI",
+    "name": "PT Mitra Adiperkasa Tbk",
+    "sector": "Barang Konsumen Non-Primer",
+    "listed_shares": 16600000000,
+    "market_cap": 23240000000000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "MAYA",
+    "name": "PT Bank Mayapada Internasional Tbk",
+    "sector": "Keuangan",
+    "listed_shares": 26167857730,
+    "market_cap": 5155067972810,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "MDKA",
+    "name": "PT Merdeka Copper Gold Tbk.",
+    "sector": "Barang Baku",
+    "listed_shares": 24472983771,
+    "market_cap": 71950572286740,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "MEDC",
+    "name": "PT Medco Energi Internasional Tbk",
+    "sector": "Energi",
+    "listed_shares": 25136231252,
+    "market_cap": 35316404909060,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "MIKA",
+    "name": "PT Mitra Keluarga Karyasehat Tbk.",
+    "sector": "Kesehatan",
+    "listed_shares": 13907481500,
+    "market_cap": 25867915590000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "MNCN",
+    "name": "Media Nusantara Citra Tbk",
+    "sector": "Barang Konsumen Non-Primer",
+    "listed_shares": 15049787710,
+    "market_cap": 3009957542000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "MTDL",
+    "name": "Metrodata Electronics Tbk",
+    "sector": "Teknologi",
+    "listed_shares": 12276884585,
+    "market_cap": 6199826715425,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "MYOR",
+    "name": "Mayora Indah Tbk",
+    "sector": "Barang Konsumen Primer",
+    "listed_shares": 22358699725,
+    "market_cap": 34655984573750,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "PGAS",
+    "name": "PT Perusahaan Gas Negara (Persero) Tbk",
+    "sector": "Energi",
+    "listed_shares": 24241508196,
+    "market_cap": 37089507539880,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "PTBA",
+    "name": "PT Bukit Asam (Persero) Tbk",
+    "sector": "Energi",
+    "listed_shares": 11520659250,
+    "market_cap": 29492887680000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "PTPP",
+    "name": "PP (Persero) Tbk",
+    "sector": "Infrastruktur",
+    "listed_shares": 6199897354,
+    "market_cap": 1221379778738,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "PWON",
+    "name": "Pakuwon Jati Tbk",
+    "sector": "Properti & Real Estat",
+    "listed_shares": 48159602400,
+    "market_cap": 13484688672000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "SCMA",
+    "name": "Surya Citra Media Tbk",
+    "sector": "Barang Konsumen Non-Primer",
+    "listed_shares": 63564703280,
+    "market_cap": 12712940656000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "SIDO",
+    "name": "PT Industri Jamu Dan Farmasi Sido Muncul Tbk",
+    "sector": "Kesehatan",
+    "listed_shares": 30000000000,
+    "market_cap": 10560000000000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "SILO",
+    "name": "PT Siloam International Hospitals Tbk.",
+    "sector": "Kesehatan",
+    "listed_shares": 13006125000,
+    "market_cap": 28093230000000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "SMBR",
+    "name": "PT Semen Baturaja (Persero) Tbk",
+    "sector": "Barang Baku",
+    "listed_shares": 9932534336,
+    "market_cap": 1619003096768,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "SMGR",
+    "name": "Semen Indonesia (Persero) Tbk",
+    "sector": "Barang Baku",
+    "listed_shares": 6751540089,
+    "market_cap": 9992279331720,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "SMRA",
+    "name": "PT Summarecon Agung Tbk",
+    "sector": "Properti & Real Estat",
+    "listed_shares": 16508568358,
+    "market_cap": 5183690464412,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "TBIG",
+    "name": "PT Tower Bersama Infrastructure Tbk",
+    "sector": "Infrastruktur",
+    "listed_shares": 22656999445,
+    "market_cap": 33192504186925,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "TINS",
+    "name": "PT TIMAH (Persero) Tbk",
+    "sector": "Barang Baku",
+    "listed_shares": 7447753454,
+    "market_cap": 30088923954160,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "TLKM",
+    "name": "PT Telkom Indonesia (Persero) Tbk",
+    "sector": "Infrastruktur",
+    "listed_shares": 99062216600,
+    "market_cap": 257561763160000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "TOWR",
+    "name": "Sarana Menara Nusantara Tbk",
+    "sector": "Infrastruktur",
+    "listed_shares": 59098103731,
+    "market_cap": 26830539093874,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "TPIA",
+    "name": "PT Chandra Asri Pacific Tbk",
+    "sector": "Barang Baku",
+    "listed_shares": 86511545092,
+    "market_cap": 169130070654860,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "ULTJ",
+    "name": "PT Ultrajaya Milk Industry & Trading Company Tbk",
+    "sector": "Barang Konsumen Primer",
+    "listed_shares": 10398175200,
+    "market_cap": 15441290172000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "UNTR",
+    "name": "United Tractors Tbk",
+    "sector": "Perindustrian",
+    "listed_shares": 3730135136,
+    "market_cap": 90269270291200,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "UNVR",
+    "name": "Unilever Indonesia Tbk",
+    "sector": "Barang Konsumen Primer",
+    "listed_shares": 38150000000,
+    "market_cap": 66953250000000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "VIVA",
+    "name": "PT Visi Media Asia Tbk",
+    "sector": "Barang Konsumen Non-Primer",
+    "listed_shares": 16464270400,
+    "market_cap": 823213520000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "WIIM",
+    "name": "Wismilak Inti Makmur Tbk",
+    "sector": "Barang Konsumen Primer",
+    "listed_shares": 2099873760,
+    "market_cap": 3464791704000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "WIKA",
+    "name": "PT Wijaya Karya (Persero) Tbk",
+    "sector": "Infrastruktur",
+    "listed_shares": 39873063858,
+    "market_cap": 8134105027032,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "WSKT",
+    "name": "PT Waskita Karya (Persero) Tbk",
+    "sector": "Infrastruktur",
+    "listed_shares": 28806807016,
+    "market_cap": 5818975017232,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "BNBR",
+    "name": "Bakrie & Brothers Tbk",
+    "sector": "Perindustrian",
+    "listed_shares": 263336671587,
+    "market_cap": 25806993815526,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "DSSA",
+    "name": "Dian Swastatika Sentosa Tbk",
+    "sector": "Energi",
+    "listed_shares": 192638080000,
+    "market_cap": 213828268800000,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "LPCK",
+    "name": "Lippo Cikarang Tbk",
+    "sector": "Properti & Real Estat",
+    "listed_shares": 5134685692,
+    "market_cap": 3132158272120,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "LPKR",
+    "name": "Lippo Karawaci Tbk",
+    "sector": "Properti & Real Estat",
+    "listed_shares": 70898018369,
+    "market_cap": 4395677138878,
+    "report_date": "2026-08-31"
+  },
+  {
+    "code": "SMAR",
+    "name": "PT Sinar Mas Agro Resources and Technology Tbk",
+    "sector": "Barang Konsumen Primer",
+    "listed_shares": 2872193366,
+    "market_cap": 18023013371650,
+    "report_date": "2026-08-31"
+  }
+]

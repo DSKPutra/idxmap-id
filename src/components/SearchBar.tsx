@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
-import { Search, TrendingUp, User as UserIcon } from 'lucide-react'
+import { Search, TrendingUp } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useDebounce } from '@/hooks/useDebounce'
@@ -24,28 +24,22 @@ export function SearchBar({ className, autoFocus }: SearchBarProps) {
     queryKey: ['search', debounced],
     queryFn: async () => {
       const q = debounced.trim()
-      if (q.length < 2) return { tickers: [], investors: [] }
+      if (q.length < 2) return { tickers: [] }
 
-      const [tickerRes, investorRes] = await Promise.all([
-        supabase.from('v_ticker_summary').select('code, name').ilike('code', `${q}%`).limit(5),
-        supabase.from('investors').select('id, name, type').ilike('name', `%${q}%`).limit(5),
-      ])
+      const tickerRes = await supabase
+        .from('v_ticker_summary')
+        .select('code, name')
+        .ilike('code', `${q}%`)
+        .limit(8)
 
-      if (q.length >= 2) {
+      if (tickerRes.data?.length) {
         supabase
           .from('search_logs')
-          .insert({
-            query: q,
-            query_type: tickerRes.data?.length
-              ? 'ticker'
-              : investorRes.data?.length
-                ? 'investor'
-                : 'other',
-          })
+          .insert({ query: q, query_type: 'ticker' })
           .then(() => {})
       }
 
-      return { tickers: tickerRes.data ?? [], investors: investorRes.data ?? [] }
+      return { tickers: tickerRes.data ?? [] }
     },
     enabled: debounced.trim().length >= 2,
   })
@@ -60,7 +54,7 @@ export function SearchBar({ className, autoFocus }: SearchBarProps) {
     return () => document.removeEventListener('mousedown', handleClickOutside)
   }, [])
 
-  const hasResults = (data?.tickers.length ?? 0) > 0 || (data?.investors.length ?? 0) > 0
+  const hasResults = (data?.tickers.length ?? 0) > 0
 
   return (
     <div ref={containerRef} className={cn('relative w-full', className)}>
@@ -87,49 +81,22 @@ export function SearchBar({ className, autoFocus }: SearchBarProps) {
           {!isFetching && !hasResults && (
             <div className="p-3 text-sm text-muted-foreground">{t('search.noResults')}</div>
           )}
-          {!isFetching && data && data.tickers.length > 0 && (
-            <div>
-              <div className="bg-muted px-3 py-1.5 text-xs font-semibold uppercase text-muted-foreground">
-                {t('search.tickers')}
-              </div>
-              {data.tickers.map((tk) => (
-                <button
-                  key={tk.code}
-                  className="flex w-full items-center gap-2 px-3 py-2 text-left text-sm hover:bg-secondary"
-                  onClick={() => {
-                    navigate(`/ticker/${tk.code}`)
-                    setOpen(false)
-                    setQuery('')
-                  }}
-                >
-                  <TrendingUp className="h-4 w-4 text-primary" />
-                  <span className="font-mono font-semibold">{tk.code}</span>
-                  <span className="truncate text-muted-foreground">{tk.name}</span>
-                </button>
-              ))}
-            </div>
-          )}
-          {!isFetching && data && data.investors.length > 0 && (
-            <div>
-              <div className="bg-muted px-3 py-1.5 text-xs font-semibold uppercase text-muted-foreground">
-                {t('search.investors')}
-              </div>
-              {data.investors.map((inv) => (
-                <button
-                  key={inv.id}
-                  className="flex w-full items-center gap-2 px-3 py-2 text-left text-sm hover:bg-secondary"
-                  onClick={() => {
-                    navigate(`/investor/${inv.id}`)
-                    setOpen(false)
-                    setQuery('')
-                  }}
-                >
-                  <UserIcon className="h-4 w-4 text-accent" />
-                  <span className="truncate">{inv.name}</span>
-                </button>
-              ))}
-            </div>
-          )}
+          {!isFetching &&
+            data?.tickers.map((tk) => (
+              <button
+                key={tk.code}
+                className="flex w-full items-center gap-2 px-3 py-2 text-left text-sm hover:bg-secondary"
+                onClick={() => {
+                  navigate(`/ticker/${tk.code}`)
+                  setOpen(false)
+                  setQuery('')
+                }}
+              >
+                <TrendingUp className="h-4 w-4 text-primary" />
+                <span className="font-mono font-semibold">{tk.code}</span>
+                <span className="truncate text-muted-foreground">{tk.name}</span>
+              </button>
+            ))}
         </div>
       )}
     </div>

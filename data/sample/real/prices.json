@@ -1,0 +1,1410 @@
+[
+  {
+    "ticker_code": "ACES",
+    "date": "2026-08-31",
+    "close": 356,
+    "change_pct": -1.11,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ACES",
+    "date": "2026-07-31",
+    "close": 360,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ADHI",
+    "date": "2026-08-31",
+    "close": 133,
+    "change_pct": -16.35,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ADHI",
+    "date": "2026-07-31",
+    "close": 159,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ADMR",
+    "date": "2026-08-31",
+    "close": 1750,
+    "change_pct": 15.51,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ADMR",
+    "date": "2026-07-31",
+    "close": 1515,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ADRO",
+    "date": "2026-08-31",
+    "close": 2840,
+    "change_pct": 15.45,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ADRO",
+    "date": "2026-07-31",
+    "close": 2460,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "AKRA",
+    "date": "2026-08-31",
+    "close": 1455,
+    "change_pct": -0.68,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "AKRA",
+    "date": "2026-07-31",
+    "close": 1465,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "AMRT",
+    "date": "2026-08-31",
+    "close": 1335,
+    "change_pct": 0.75,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "AMRT",
+    "date": "2026-07-31",
+    "close": 1325,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ANTM",
+    "date": "2026-08-31",
+    "close": 3100,
+    "change_pct": 7.64,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ANTM",
+    "date": "2026-07-31",
+    "close": 2880,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "APLN",
+    "date": "2026-08-31",
+    "close": 135,
+    "change_pct": 8.87,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "APLN",
+    "date": "2026-07-31",
+    "close": 124,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ARNA",
+    "date": "2026-08-31",
+    "close": 498,
+    "change_pct": 1.63,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ARNA",
+    "date": "2026-07-31",
+    "close": 490,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ARTO",
+    "date": "2026-08-31",
+    "close": 970,
+    "change_pct": -20.49,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ARTO",
+    "date": "2026-07-31",
+    "close": 1220,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ASGR",
+    "date": "2026-08-31",
+    "close": 2230,
+    "change_pct": 24.58,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ASGR",
+    "date": "2026-07-31",
+    "close": 1790,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ASII",
+    "date": "2026-08-31",
+    "close": 4800,
+    "change_pct": -5.88,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ASII",
+    "date": "2026-07-31",
+    "close": 5100,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ASRI",
+    "date": "2026-08-31",
+    "close": 125,
+    "change_pct": 6.84,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ASRI",
+    "date": "2026-07-31",
+    "close": 117,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "AUTO",
+    "date": "2026-08-31",
+    "close": 3430,
+    "change_pct": 24.73,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "AUTO",
+    "date": "2026-07-31",
+    "close": 2750,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "AVIA",
+    "date": "2026-08-31",
+    "close": 374,
+    "change_pct": 15.43,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "AVIA",
+    "date": "2026-07-31",
+    "close": 324,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BALI",
+    "date": "2026-08-31",
+    "close": 1400,
+    "change_pct": 13.36,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BALI",
+    "date": "2026-07-31",
+    "close": 1235,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BBCA",
+    "date": "2026-08-31",
+    "close": 6475,
+    "change_pct": 2.37,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BBCA",
+    "date": "2026-07-31",
+    "close": 6325,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BBNI",
+    "date": "2026-08-31",
+    "close": 3860,
+    "change_pct": 9.35,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BBNI",
+    "date": "2026-07-31",
+    "close": 3530,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BBRI",
+    "date": "2026-08-31",
+    "close": 3250,
+    "change_pct": 6.91,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BBRI",
+    "date": "2026-07-31",
+    "close": 3040,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BBTN",
+    "date": "2026-08-31",
+    "close": 1240,
+    "change_pct": 2.06,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BBTN",
+    "date": "2026-07-31",
+    "close": 1215,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BDMN",
+    "date": "2026-08-31",
+    "close": 4300,
+    "change_pct": 2.38,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BDMN",
+    "date": "2026-07-31",
+    "close": 4200,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BEST",
+    "date": "2026-08-31",
+    "close": 139,
+    "change_pct": 26.36,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BEST",
+    "date": "2026-07-31",
+    "close": 110,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BFIN",
+    "date": "2026-08-31",
+    "close": 930,
+    "change_pct": 1.64,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BFIN",
+    "date": "2026-07-31",
+    "close": 915,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BMRI",
+    "date": "2026-08-31",
+    "close": 4230,
+    "change_pct": 0.95,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BMRI",
+    "date": "2026-07-31",
+    "close": 4190,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BMTR",
+    "date": "2026-08-31",
+    "close": 113,
+    "change_pct": -4.24,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BMTR",
+    "date": "2026-07-31",
+    "close": 118,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BNGA",
+    "date": "2026-08-31",
+    "close": 1685,
+    "change_pct": 2.12,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BNGA",
+    "date": "2026-07-31",
+    "close": 1650,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BRIS",
+    "date": "2026-08-31",
+    "close": 1775,
+    "change_pct": -2.47,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BRIS",
+    "date": "2026-07-31",
+    "close": 1820,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BRPT",
+    "date": "2026-08-31",
+    "close": 1785,
+    "change_pct": -3.25,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BRPT",
+    "date": "2026-07-31",
+    "close": 1845,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BSDE",
+    "date": "2026-08-31",
+    "close": 650,
+    "change_pct": 14.04,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BSDE",
+    "date": "2026-07-31",
+    "close": 570,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BUDI",
+    "date": "2026-08-31",
+    "close": 238,
+    "change_pct": 9.17,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BUDI",
+    "date": "2026-07-31",
+    "close": 218,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BUKA",
+    "date": "2026-08-31",
+    "close": 105,
+    "change_pct": -11.02,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BUKA",
+    "date": "2026-07-31",
+    "close": 118,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BUMI",
+    "date": "2026-08-31",
+    "close": 192,
+    "change_pct": 16.36,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BUMI",
+    "date": "2026-07-31",
+    "close": 165,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "CPIN",
+    "date": "2026-08-31",
+    "close": 2980,
+    "change_pct": -9.42,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "CPIN",
+    "date": "2026-07-31",
+    "close": 3290,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "CTRA",
+    "date": "2026-08-31",
+    "close": 640,
+    "change_pct": 11.3,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "CTRA",
+    "date": "2026-07-31",
+    "close": 575,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "DCII",
+    "date": "2026-08-31",
+    "close": 200100,
+    "change_pct": 4.57,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "DCII",
+    "date": "2026-07-31",
+    "close": 191350,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ELSA",
+    "date": "2026-08-31",
+    "close": 720,
+    "change_pct": 3.6,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ELSA",
+    "date": "2026-07-31",
+    "close": 695,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "EMTK",
+    "date": "2026-08-31",
+    "close": 515,
+    "change_pct": -2.83,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "EMTK",
+    "date": "2026-07-31",
+    "close": 530,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ERAA",
+    "date": "2026-08-31",
+    "close": 494,
+    "change_pct": 17.62,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ERAA",
+    "date": "2026-07-31",
+    "close": 420,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "EXCL",
+    "date": "2026-08-31",
+    "close": 2820,
+    "change_pct": 15.57,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "EXCL",
+    "date": "2026-07-31",
+    "close": 2440,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "GGRM",
+    "date": "2026-08-31",
+    "close": 20800,
+    "change_pct": 9.47,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "GGRM",
+    "date": "2026-07-31",
+    "close": 19000,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "GOTO",
+    "date": "2026-08-31",
+    "close": 50,
+    "change_pct": 0,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "GOTO",
+    "date": "2026-07-31",
+    "close": 50,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "HEAL",
+    "date": "2026-08-31",
+    "close": 645,
+    "change_pct": -19.37,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "HEAL",
+    "date": "2026-07-31",
+    "close": 800,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "HMSP",
+    "date": "2026-08-31",
+    "close": 740,
+    "change_pct": 0.68,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "HMSP",
+    "date": "2026-07-31",
+    "close": 735,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ICBP",
+    "date": "2026-08-31",
+    "close": 7600,
+    "change_pct": 8.96,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ICBP",
+    "date": "2026-07-31",
+    "close": 6975,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "INCO",
+    "date": "2026-08-31",
+    "close": 5250,
+    "change_pct": -0.47,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "INCO",
+    "date": "2026-07-31",
+    "close": 5275,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "INDF",
+    "date": "2026-08-31",
+    "close": 7500,
+    "change_pct": 7.53,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "INDF",
+    "date": "2026-07-31",
+    "close": 6975,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "INTP",
+    "date": "2026-08-31",
+    "close": 5525,
+    "change_pct": 18.31,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "INTP",
+    "date": "2026-07-31",
+    "close": 4670,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ISAT",
+    "date": "2026-08-31",
+    "close": 2500,
+    "change_pct": 31.58,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ISAT",
+    "date": "2026-07-31",
+    "close": 1900,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ITMG",
+    "date": "2026-08-31",
+    "close": 26050,
+    "change_pct": 6,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ITMG",
+    "date": "2026-07-31",
+    "close": 24575,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "JPFA",
+    "date": "2026-08-31",
+    "close": 2200,
+    "change_pct": 2.33,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "JPFA",
+    "date": "2026-07-31",
+    "close": 2150,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "JSMR",
+    "date": "2026-08-31",
+    "close": 2960,
+    "change_pct": 8.03,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "JSMR",
+    "date": "2026-07-31",
+    "close": 2740,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "KLBF",
+    "date": "2026-08-31",
+    "close": 785,
+    "change_pct": 8.28,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "KLBF",
+    "date": "2026-07-31",
+    "close": 725,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "LPPF",
+    "date": "2026-08-31",
+    "close": 1600,
+    "change_pct": 2.89,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "LPPF",
+    "date": "2026-07-31",
+    "close": 1555,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "MAPI",
+    "date": "2026-08-31",
+    "close": 1400,
+    "change_pct": -9.97,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "MAPI",
+    "date": "2026-07-31",
+    "close": 1555,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "MAYA",
+    "date": "2026-08-31",
+    "close": 197,
+    "change_pct": 0.51,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "MAYA",
+    "date": "2026-07-31",
+    "close": 196,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "MDKA",
+    "date": "2026-08-31",
+    "close": 2940,
+    "change_pct": 8.09,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "MDKA",
+    "date": "2026-07-31",
+    "close": 2720,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "MEDC",
+    "date": "2026-08-31",
+    "close": 1405,
+    "change_pct": 9.34,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "MEDC",
+    "date": "2026-07-31",
+    "close": 1285,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "MIKA",
+    "date": "2026-08-31",
+    "close": 1860,
+    "change_pct": 5.38,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "MIKA",
+    "date": "2026-07-31",
+    "close": 1765,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "MNCN",
+    "date": "2026-08-31",
+    "close": 200,
+    "change_pct": -4.76,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "MNCN",
+    "date": "2026-07-31",
+    "close": 210,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "MTDL",
+    "date": "2026-08-31",
+    "close": 505,
+    "change_pct": 0,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "MTDL",
+    "date": "2026-07-31",
+    "close": 505,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "MYOR",
+    "date": "2026-08-31",
+    "close": 1550,
+    "change_pct": -8.01,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "MYOR",
+    "date": "2026-07-31",
+    "close": 1685,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "PGAS",
+    "date": "2026-08-31",
+    "close": 1530,
+    "change_pct": 2,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "PGAS",
+    "date": "2026-07-31",
+    "close": 1500,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "PTBA",
+    "date": "2026-08-31",
+    "close": 2560,
+    "change_pct": 10.34,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "PTBA",
+    "date": "2026-07-31",
+    "close": 2320,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "PTPP",
+    "date": "2026-08-31",
+    "close": 197,
+    "change_pct": -2.48,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "PTPP",
+    "date": "2026-07-31",
+    "close": 202,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "PWON",
+    "date": "2026-08-31",
+    "close": 280,
+    "change_pct": 5.26,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "PWON",
+    "date": "2026-07-31",
+    "close": 266,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "SCMA",
+    "date": "2026-08-31",
+    "close": 200,
+    "change_pct": -3.85,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "SCMA",
+    "date": "2026-07-31",
+    "close": 208,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "SIDO",
+    "date": "2026-08-31",
+    "close": 352,
+    "change_pct": -2.76,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "SIDO",
+    "date": "2026-07-31",
+    "close": 362,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "SILO",
+    "date": "2026-08-31",
+    "close": 2160,
+    "change_pct": -1.82,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "SILO",
+    "date": "2026-07-31",
+    "close": 2200,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "SMBR",
+    "date": "2026-08-31",
+    "close": 163,
+    "change_pct": 0,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "SMBR",
+    "date": "2026-07-31",
+    "close": 163,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "SMGR",
+    "date": "2026-08-31",
+    "close": 1480,
+    "change_pct": 1.37,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "SMGR",
+    "date": "2026-07-31",
+    "close": 1460,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "SMRA",
+    "date": "2026-08-31",
+    "close": 314,
+    "change_pct": -3.68,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "SMRA",
+    "date": "2026-07-31",
+    "close": 326,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "TBIG",
+    "date": "2026-08-31",
+    "close": 1465,
+    "change_pct": 1.38,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "TBIG",
+    "date": "2026-07-31",
+    "close": 1445,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "TINS",
+    "date": "2026-08-31",
+    "close": 4040,
+    "change_pct": 6.32,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "TINS",
+    "date": "2026-07-31",
+    "close": 3800,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "TLKM",
+    "date": "2026-08-31",
+    "close": 2600,
+    "change_pct": -1.14,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "TLKM",
+    "date": "2026-07-31",
+    "close": 2630,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "TOWR",
+    "date": "2026-08-31",
+    "close": 454,
+    "change_pct": 12.38,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "TOWR",
+    "date": "2026-07-31",
+    "close": 404,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "TPIA",
+    "date": "2026-08-31",
+    "close": 1955,
+    "change_pct": -9.49,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "TPIA",
+    "date": "2026-07-31",
+    "close": 2160,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ULTJ",
+    "date": "2026-08-31",
+    "close": 1485,
+    "change_pct": 1.02,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "ULTJ",
+    "date": "2026-07-31",
+    "close": 1470,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "UNTR",
+    "date": "2026-08-31",
+    "close": 24200,
+    "change_pct": 1.04,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "UNTR",
+    "date": "2026-07-31",
+    "close": 23950,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "UNVR",
+    "date": "2026-08-31",
+    "close": 1755,
+    "change_pct": 0,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "UNVR",
+    "date": "2026-07-31",
+    "close": 1755,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "VIVA",
+    "date": "2026-08-31",
+    "close": 50,
+    "change_pct": 19.05,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "VIVA",
+    "date": "2026-07-31",
+    "close": 42,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "WIIM",
+    "date": "2026-08-31",
+    "close": 1650,
+    "change_pct": -3.23,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "WIIM",
+    "date": "2026-07-31",
+    "close": 1705,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "WIKA",
+    "date": "2026-08-31",
+    "close": 204,
+    "change_pct": 0,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "WIKA",
+    "date": "2026-07-31",
+    "close": 204,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "WSKT",
+    "date": "2026-08-31",
+    "close": 202,
+    "change_pct": 0,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "WSKT",
+    "date": "2026-07-31",
+    "close": 202,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BNBR",
+    "date": "2026-08-31",
+    "close": 98,
+    "change_pct": 0,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "BNBR",
+    "date": "2026-07-31",
+    "close": 98,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "DSSA",
+    "date": "2026-08-31",
+    "close": 1110,
+    "change_pct": 30.59,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "DSSA",
+    "date": "2026-07-31",
+    "close": 850,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "LPCK",
+    "date": "2026-08-31",
+    "close": 610,
+    "change_pct": 12.96,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "LPCK",
+    "date": "2026-07-31",
+    "close": 540,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "LPKR",
+    "date": "2026-08-31",
+    "close": 62,
+    "change_pct": 3.33,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "LPKR",
+    "date": "2026-07-31",
+    "close": 60,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "SMAR",
+    "date": "2026-08-31",
+    "close": 6275,
+    "change_pct": 6.81,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  },
+  {
+    "ticker_code": "SMAR",
+    "date": "2026-07-31",
+    "close": 5875,
+    "change_pct": null,
+    "volume": null,
+    "source": "KSEI_MONTHLY"
+  }
+]

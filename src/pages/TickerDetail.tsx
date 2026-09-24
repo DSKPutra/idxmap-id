@@ -20,15 +20,12 @@ import {
   TableHeader,
   TableRow,
 } from '@/components/ui/table'
-import { useAuth } from '@/hooks/useAuth'
 import { classifyFreeFloatBand, LOW_FLOAT_WARNING_THRESHOLD } from '@/lib/freeFloat'
 import { INVESTOR_TYPE_LABEL, useI18n } from '@/lib/i18n'
 import { supabase } from '@/lib/supabase'
 import { formatDateId, formatNumber, formatPercent } from '@/lib/utils'
 
-interface HoldingRow {
-  investor_id: string
-  investor_name: string
+interface BreakdownRow {
   investor_type: string
   local_foreign: 'L' | 'F'
   shares: number
@@ -38,7 +35,6 @@ interface HoldingRow {
 export function TickerDetail() {
   const { code = '' } = useParams()
   const { t, lang } = useI18n()
-  const { isPaid } = useAuth()
 
   const { data: summary, isLoading: summaryLoading } = useQuery({
     queryKey: ['ticker-summary', code],
@@ -53,33 +49,25 @@ export function TickerDetail() {
     },
   })
 
-  const { data: holdings, isLoading: holdingsLoading } = useQuery({
-    queryKey: ['ticker-holdings', code, isPaid],
-    queryFn: async (): Promise<{ rows: HoldingRow[]; isFull: boolean }> => {
+  const { data: breakdown, isLoading: breakdownLoading } = useQuery({
+    queryKey: ['ticker-breakdown', code],
+    queryFn: async (): Promise<{ rows: BreakdownRow[]; isFull: boolean }> => {
       const full = await supabase
-        .from('holdings')
-        .select('investor_id, shares, percentage, investors(name, type, local_foreign)')
+        .from('ownership_breakdown')
+        .select('investor_type, local_foreign, shares, percentage')
         .eq('ticker_code', code.toUpperCase())
         .order('percentage', { ascending: false })
 
       if (!full.error && full.data && full.data.length > 0) {
         return {
           isFull: true,
-          rows: full.data.map((h) => ({
-            investor_id: h.investor_id,
-            shares: h.shares,
-            percentage: Number(h.percentage),
-            investor_name: (h.investors as unknown as { name: string })?.name ?? '-',
-            investor_type: (h.investors as unknown as { type: string })?.type ?? '-',
-            local_foreign:
-              (h.investors as unknown as { local_foreign: 'L' | 'F' })?.local_foreign ?? 'L',
-          })),
+          rows: full.data.map((r) => ({ ...r, percentage: Number(r.percentage) })),
         }
       }
 
       const preview = await supabase
-        .from('v_holdings_preview')
-        .select('investor_id, investor_name, investor_type, local_foreign, shares, percentage')
+        .from('v_ownership_preview')
+        .select('investor_type, local_foreign, shares, percentage')
         .eq('ticker_code', code.toUpperCase())
         .order('percentage', { ascending: false })
       if (preview.error) throw preview.error
@@ -142,14 +130,6 @@ export function TickerDetail() {
         <Card>
           <CardHeader className="pb-2">
             <CardTitle className="text-sm font-medium text-muted-foreground">
-              {t('ticker.holders')}
-            </CardTitle>
-          </CardHeader>
-          <CardContent className="text-2xl font-bold">{summary.holder_count}</CardContent>
-        </Card>
-        <Card>
-          <CardHeader className="pb-2">
-            <CardTitle className="text-sm font-medium text-muted-foreground">
               {t('ticker.freeFloat')}
             </CardTitle>
           </CardHeader>
@@ -166,6 +146,14 @@ export function TickerDetail() {
               ? `Rp ${formatNumber(Math.round(summary.market_cap / 1_000_000_000))} M`
               : '-'}
           </CardContent>
+        </Card>
+        <Card>
+          <CardHeader className="pb-2">
+            <CardTitle className="text-sm font-medium text-muted-foreground">
+              {t('ticker.local')}
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="text-2xl font-bold">{formatPercent(localPct, 1)}</CardContent>
         </Card>
         <Card>
           <CardHeader className="pb-2">
@@ -209,30 +197,21 @@ export function TickerDetail() {
             <CardTitle>{t('ticker.holders')}</CardTitle>
           </CardHeader>
           <CardContent>
-            {holdingsLoading && <p className="text-muted-foreground">{t('common.loading')}</p>}
-            {holdings && (
+            {breakdownLoading && <p className="text-muted-foreground">{t('common.loading')}</p>}
+            {breakdown && (
               <>
                 <Table>
                   <TableHeader>
                     <TableRow>
                       <TableHead>{t('ticker.investor')}</TableHead>
-                      <TableHead>{t('ticker.type')}</TableHead>
                       <TableHead>{t('ticker.status')}</TableHead>
                       <TableHead className="text-right">{t('ticker.shares')}</TableHead>
                       <TableHead className="text-right">{t('ticker.percentage')}</TableHead>
                     </TableRow>
                   </TableHeader>
                   <TableBody>
-                    {holdings.rows.map((row) => (
-                      <TableRow key={row.investor_id}>
-                        <TableCell>
-                          <Link
-                            to={`/investor/${row.investor_id}`}
-                            className="hover:text-primary hover:underline"
-                          >
-                            {row.investor_name}
-                          </Link>
-                        </TableCell>
+                    {breakdown.rows.map((row) => (
+                      <TableRow key={`${row.investor_type}-${row.local_foreign}`}>
                         <TableCell>
                           {INVESTOR_TYPE_LABEL[row.investor_type]?.[lang] ?? row.investor_type}
                         </TableCell>
@@ -252,7 +231,7 @@ export function TickerDetail() {
                   </TableBody>
                 </Table>
 
-                {!holdings.isFull && (
+                {!breakdown.isFull && (
                   <div className="mt-6 flex flex-col items-center gap-3 rounded-lg border border-dashed border-border p-6 text-center">
                     <Lock className="h-6 w-6 text-primary" />
                     <p className="font-semibold">{t('paywall.title')}</p>
