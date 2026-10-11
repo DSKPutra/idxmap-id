@@ -73,9 +73,25 @@ export function Footer() {
           </p>
         </div>
       </div>
-      <div className="border-t border-border py-6 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} IDXMap.ID. Semua data bersifat informasional, bukan nasihat
-        investasi.
+      <div className="border-t border-border">
+        <div className="container flex flex-col items-center gap-4 py-8 text-center">
+          <img
+            src={`${import.meta.env.BASE_URL}brand/dsk-logo.jpg`}
+            alt="Dea Saka Kurnia Putra — A brighter tomorrow through meaningful work"
+            width={450}
+            height={150}
+            loading="lazy"
+            className="h-auto w-full max-w-[320px] rounded-lg"
+          />
+          <p className="text-sm text-muted-foreground">
+            Platform IDXMap.ID dibuat dan dikembangkan oleh{' '}
+            <span className="font-semibold text-foreground">Dea Saka Kurnia Putra</span>.
+          </p>
+          <p className="text-xs text-muted-foreground">
+            © {new Date().getFullYear()} Dea Saka Kurnia Putra. Seluruh hak cipta dilindungi. Semua
+            data bersifat informasional, bukan nasihat investasi.
+          </p>
+        </div>
       </div>
     </footer>
   )
