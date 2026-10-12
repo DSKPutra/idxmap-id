@@ -4,13 +4,13 @@ IDXMap.ID adalah SPA statis (hasil `npm run build` → folder `dist/`) yang bisa
 
 ## Status per platform
 
-| Platform | URL Live | Status | Keterangan |
-|---|---|---|---|
-| GitHub Pages | [dskputra.github.io/idxmap-id](https://dskputra.github.io/idxmap-id/) | ✅ Sukses (HTTP 200) | Deploy otomatis via GitHub Actions (`.github/workflows/deploy-pages.yml`) setiap push ke `main`. Base path `/idxmap-id/` di-inject lewat `VITE_BASE_PATH`. Deep-link routing ditangani `public/404.html` + `src/main.tsx`. |
-| Netlify | [idxmap-id.netlify.app](https://idxmap-id.netlify.app/) | ✅ Sukses (HTTP 200) | Build otomatis dari `main` sesuai `netlify.toml` (`npm run build`, publish `dist`, SPA redirect `/* → /index.html`). |
-| Vercel | [idxmap-id.vercel.app](https://idxmap-id.vercel.app/) | ✅ Sukses (HTTP 200) | Deploy via Vercel CLI (`vercel --prod`) sesuai `vercel.json` (build `dist`, SPA rewrite). |
-| Cloudflare Pages | — | ⛔ Belum jalan | Butuh `CLOUDFLARE_API_TOKEN` atau login `wrangler` — tidak ada tool otomatis untuk Cloudflare Pages yang tersedia saat ini. Lihat langkah manual di bawah. |
-| Lovable | — | 🟡 Manual | Perlu dihubungkan lewat UI Lovable (import dari GitHub). Lihat [DEPLOY_LOVABLE.md](../DEPLOY_LOVABLE.md) di root repo untuk langkah lengkap. |
+| Platform         | URL Live                                                              | Status               | Keterangan                                                                                                                                                                                                                 |
+| ---------------- | --------------------------------------------------------------------- | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| GitHub Pages     | [dskputra.github.io/idxmap-id](https://dskputra.github.io/idxmap-id/) | ✅ Sukses (HTTP 200) | Deploy otomatis via GitHub Actions (`.github/workflows/deploy-pages.yml`) setiap push ke `main`. Base path `/idxmap-id/` di-inject lewat `VITE_BASE_PATH`. Deep-link routing ditangani `public/404.html` + `src/main.tsx`. |
+| Netlify          | [idxmap-id.netlify.app](https://idxmap-id.netlify.app/)               | ✅ Sukses (HTTP 200) | Build otomatis dari `main` sesuai `netlify.toml` (`npm run build`, publish `dist`, SPA redirect `/* → /index.html`).                                                                                                       |
+| Vercel           | [idxmap-id.vercel.app](https://idxmap-id.vercel.app/)                 | ✅ Sukses (HTTP 200) | Deploy via Vercel CLI (`vercel --prod`) sesuai `vercel.json` (build `dist`, SPA rewrite).                                                                                                                                  |
+| Cloudflare Pages | —                                                                     | ⛔ Belum jalan       | Butuh `CLOUDFLARE_API_TOKEN` atau login `wrangler` — tidak ada tool otomatis untuk Cloudflare Pages yang tersedia saat ini. Lihat langkah manual di bawah.                                                                 |
+| Lovable          | —                                                                     | 🟡 Manual            | Perlu dihubungkan lewat UI Lovable (import dari GitHub). Lihat [DEPLOY_LOVABLE.md](../DEPLOY_LOVABLE.md) di root repo untuk langkah lengkap.                                                                               |
 
 Ketiga platform yang sudah live (GitHub Pages, Netlify, Vercel) dibangun dari commit yang sama di branch `main` dan menghasilkan build yang identik — semuanya membaca env vars yang sama (lihat `.env.example`) dan terhubung ke Supabase project yang sama.
 
@@ -30,16 +30,17 @@ Belum ada token Cloudflare yang terhubung ke sesi kerja ini, jadi deploy pertama
 
 ## Environment variables yang dibutuhkan setiap platform
 
-| Key | Sumber nilai |
-|---|---|
-| `VITE_SUPABASE_URL` | `https://ibumxbrjsablasamefmr.supabase.co` |
-| `VITE_SUPABASE_ANON_KEY` | Supabase Dashboard → Settings → API → anon public key |
-| `VITE_MAYAR_CHECKOUT_URL` | Link checkout produk lifetime di Mayar.id |
-| `VITE_EARLY_BIRD_DEADLINE` | Tanggal ISO 8601 batas harga early bird |
-| `VITE_DOCS_URL` | URL GitBook publik (lihat [SETUP_GITBOOK.md](SETUP_GITBOOK.md)) |
-| `VITE_BASE_PATH` | Hanya untuk GitHub Pages: `/idxmap-id/` (sudah diset di workflow Actions) |
+| Key                        | Sumber nilai                                                              |
+| -------------------------- | ------------------------------------------------------------------------- |
+| `VITE_SUPABASE_URL`        | `https://ibumxbrjsablasamefmr.supabase.co`                                |
+| `VITE_SUPABASE_ANON_KEY`   | Supabase Dashboard → Settings → API → anon public key                     |
+| `VITE_MAYAR_CHECKOUT_URL`  | Link checkout produk lifetime di Mayar.id                                 |
+| `VITE_EARLY_BIRD_DEADLINE` | Tanggal ISO 8601 batas harga early bird                                   |
+| `VITE_DOCS_URL`            | URL GitBook publik (lihat [SETUP_GITBOOK.md](SETUP_GITBOOK.md))           |
+| `VITE_BASE_PATH`           | Hanya untuk GitHub Pages: `/idxmap-id/` (sudah diset di workflow Actions) |
 
 Env vars ini sudah diset di:
+
 - **GitHub Actions**: repository secrets (`gh secret set`) dipakai oleh `deploy-pages.yml`.
 - **Netlify**: site environment variables (via Netlify UI/MCP).
 - **Vercel**: project environment variables untuk production/preview/development (via `vercel env add`).

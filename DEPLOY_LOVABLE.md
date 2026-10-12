@@ -15,13 +15,13 @@ Langkah ini membutuhkan UI Lovable (tidak bisa diotomasi dari CLI), jadi kerjaka
 
 Di pengaturan project Lovable (Settings → Environment Variables), tambahkan variabel yang sama seperti `.env.example`:
 
-| Key | Value |
-|---|---|
-| `VITE_SUPABASE_URL` | `https://ibumxbrjsablasamefmr.supabase.co` |
-| `VITE_SUPABASE_ANON_KEY` | (lihat `.env` lokal atau Supabase Dashboard → Settings → API) |
-| `VITE_MAYAR_CHECKOUT_URL` | Link checkout produk lifetime Anda di Mayar.id |
-| `VITE_EARLY_BIRD_DEADLINE` | Tanggal ISO 8601 batas harga early bird |
-| `VITE_DOCS_URL` | URL dokumentasi GitBook (lihat `docs/SETUP_GITBOOK.md`) |
+| Key                        | Value                                                         |
+| -------------------------- | ------------------------------------------------------------- |
+| `VITE_SUPABASE_URL`        | `https://ibumxbrjsablasamefmr.supabase.co`                    |
+| `VITE_SUPABASE_ANON_KEY`   | (lihat `.env` lokal atau Supabase Dashboard → Settings → API) |
+| `VITE_MAYAR_CHECKOUT_URL`  | Link checkout produk lifetime Anda di Mayar.id                |
+| `VITE_EARLY_BIRD_DEADLINE` | Tanggal ISO 8601 batas harga early bird                       |
+| `VITE_DOCS_URL`            | URL dokumentasi GitBook (lihat `docs/SETUP_GITBOOK.md`)       |
 
 ## 3. Hubungkan Supabase (opsional, jika ingin mengelola dari Lovable)
 
