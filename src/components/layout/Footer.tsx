@@ -2,7 +2,8 @@ import { Map } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { useI18n } from '@/lib/i18n'
 
-const DOCS_URL = import.meta.env.VITE_DOCS_URL || 'https://docs.idxmap.id'
+const DOCS_URL =
+  import.meta.env.VITE_DOCS_URL || 'https://github.com/DSKPutra/idxmap-id/tree/main/docs'
 
 export function Footer() {
   const { t } = useI18n()
